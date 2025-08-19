@@ -1,1 +1,25 @@
-{}
+{
+    "2025-08-18": [
+        {
+            "kind": "CL",
+            "n": 0,
+            "title": "Welcome to COMP110!",
+            "date": "2025-08-18",
+            "deadline": "2025-08-18",
+            "links": {
+                "Slides": "/static/slides/CL00_FDOC_site.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 0,
+            "title": "Syllabus Familiarity (Due Tuesday 8/19)",
+            "date": "2025-08-18",
+            "deadline": "2025-08-19",
+            "links": {
+                "1. Read the Syllabus": "/resources/syllabus.html",
+                "2. Complete Lesson 00 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ]
+}

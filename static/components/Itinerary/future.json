@@ -1,29 +1,51 @@
 {
-    "2025-08-18": [
+    "2025-08-19": [],
+    "2025-08-20": [
         {
             "kind": "CL",
-            "n": 0,
-            "title": "Welcome to COMP110!",
-            "date": "2025-08-18",
-            "deadline": "2025-08-18",
+            "n": 1,
+            "title": "Objects and Data Types",
+            "date": "2025-08-20",
+            "deadline": "2025-08-20",
             "links": {
-                "Slides": "/static/slides/CL00_FDOC.pdf"
+                "Slides": "/",
+                "Optional Reading": "/lessons/objects-data-types.html"
             }
         },
         {
             "kind": "LS",
-            "n": 0,
-            "title": "Syllabus Familiarity (Due Tuesday 8/19)",
-            "date": "2025-08-18",
-            "deadline": "2025-08-19",
+            "n": 1,
+            "title": "Software Setup",
+            "date": "2025-08-20",
+            "deadline": "2025-08-20",
             "links": {
-                "1. Read the Syllabus": "/resources/syllabus.html",
-                "2. Complete Lesson 00 Responses on Gradescope": "https://www.gradescope.com/"
+                "1. OS Update": "/resources/setup/os-update.html",
+                "2. Docker, git, VS Code": "/resources/setup/software.html",
+                "3. COMP110 Workspace": "/resources/setup/workspace.html",
+                "4. Complete the LS01 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 2,
+            "title": "Objects and Data Types",
+            "date": "2025-08-20",
+            "deadline": "2025-08-20",
+            "links": {
+                "Complete Lesson 02 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 0,
+            "title": "Hello, World! (Due Monday 8/25)",
+            "date": "2025-08-20",
+            "deadline": "2025-08-25",
+            "links": {
+                "": "/exercises/ex00_hello_world.html"
             }
         }
     ],
-    "2025-08-19": [],
-    "2025-08-20": [],
     "2025-08-21": [],
     "2025-08-22": [],
     "2025-08-23": [],
