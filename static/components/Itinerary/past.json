@@ -69,5 +69,29 @@
             }
         }
     ],
-    "2025-08-21": []
+    "2025-08-21": [],
+    "2025-08-22": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Expressions",
+            "date": "2025-08-22",
+            "deadline": "2025-08-22",
+            "links": {
+                "Slides": "/static/slides/CL02_Expressions.pdf",
+                "Optional Reading": "/lessons/expressions.html"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Expressions",
+            "date": "2025-08-22",
+            "deadline": "2025-08-22",
+            "links": {
+                "Complete Lesson 03 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2025-08-23": []
 }
