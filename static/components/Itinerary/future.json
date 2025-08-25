@@ -32,7 +32,8 @@
             "date": "2025-08-29",
             "deadline": "2025-08-29",
             "links": {
-                "Read Quiz Expectations": "/resources/quiz-expectations.html"
+                "Read Quiz Expectations": "/resources/quiz-expectations.html",
+                "Quiz Practice": "/static/practice/qz00_practice/qz00_questions.html"
             }
         }
     ],
