@@ -7,7 +7,7 @@
             "date": "2025-08-27",
             "deadline": "2025-08-27",
             "links": {
-                "Slides": "/",
+                "Slides": "/static/slides/CL04_fns_mem_diags.pdf",
                 "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf"
             }
         },
@@ -32,7 +32,8 @@
             "deadline": "2025-08-29",
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
-                "Quiz Practice": "/static/practice/qz00_practice/qz00_questions.html"
+                "Quiz Practice": "/static/practice/qz00_practice/qz00_questions.html",
+                "Hybrid Review Session from 6-7 PM in FB009 and online (Passcode: 110110)": "https://unc.zoom.us/j/92091104288?pwd=ujQhPMBhLadgFLx5WKeoqoPtUh6awd.1"
             }
         }
     ],
