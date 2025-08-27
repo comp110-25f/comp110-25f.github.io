@@ -94,5 +94,27 @@
         }
     ],
     "2025-08-23": [],
-    "2025-08-24": []
+    "2025-08-24": [],
+    "2025-08-25": [
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "Intro to Functions",
+            "date": "2025-08-25",
+            "deadline": "2025-08-25",
+            "links": {
+                "Slides": "/static/slides/CL03_functions.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 4,
+            "title": "Introducing Functions and Function Syntax",
+            "date": "2025-08-25",
+            "deadline": "2025-08-25",
+            "links": {
+                "Complete Lesson 04 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ]
 }

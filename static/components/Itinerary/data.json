@@ -118,7 +118,29 @@
         }
     ],
     "2025-08-26": [],
-    "2025-08-27": [],
+    "2025-08-27": [
+        {
+            "kind": "CL",
+            "n": 4,
+            "title": "Practice with Functions and Intro to Memory Diagrams",
+            "date": "2025-08-27",
+            "deadline": "2025-08-27",
+            "links": {
+                "Slides": "/",
+                "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "Memory Diagram",
+            "date": "2025-08-27",
+            "deadline": "2025-08-27",
+            "links": {
+                "": "https://www.gradescope.com"
+            }
+        }
+    ],
     "2025-08-28": [],
     "2025-08-29": [
         {
