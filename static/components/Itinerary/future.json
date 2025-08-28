@@ -20,6 +20,16 @@
             "links": {
                 "": "https://www.gradescope.com"
             }
+        },
+        {
+            "kind": "EX",
+            "n": 1,
+            "title": "Tea Party Planner (Due Wednesday 9/3)",
+            "date": "2025-08-27",
+            "deadline": "2025-09-03",
+            "links": {
+                "": "/exercises/ex01_tea_party_planner.html"
+            }
         }
     ],
     "2025-08-28": [],
@@ -33,7 +43,7 @@
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
                 "Quiz Practice": "/static/practice/qz00_practice/qz00_questions.html",
-                "Review Session Recording Coming Soon!": "/"
+                "Review Session Recording": "https://youtu.be/qM2gsvByNSA"
             }
         }
     ],
