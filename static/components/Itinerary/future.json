@@ -1,37 +1,4 @@
 {
-    "2025-08-27": [
-        {
-            "kind": "CL",
-            "n": 4,
-            "title": "Practice with Functions and Intro to Memory Diagrams",
-            "date": "2025-08-27",
-            "deadline": "2025-08-27",
-            "links": {
-                "Slides": "/static/slides/CL04_fns_mem_diags.pdf",
-                "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 0,
-            "title": "Memory Diagram",
-            "date": "2025-08-27",
-            "deadline": "2025-08-27",
-            "links": {
-                "": "https://www.gradescope.com"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 1,
-            "title": "Tea Party Planner (Due Wednesday 9/3)",
-            "date": "2025-08-27",
-            "deadline": "2025-09-03",
-            "links": {
-                "": "/exercises/ex01_tea_party_planner.html"
-            }
-        }
-    ],
     "2025-08-28": [],
     "2025-08-29": [
         {
