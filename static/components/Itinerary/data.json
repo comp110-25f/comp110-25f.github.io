@@ -164,6 +164,36 @@
                 "Quiz Practice": "/static/practice/qz00_practice/qz00_questions.html",
                 "Review Session Recording": "https://youtu.be/qM2gsvByNSA"
             }
+        },
+        {
+            "kind": "CL",
+            "n": 5,
+            "title": "Boolean Operators and Intro to Conditional Control Flow",
+            "date": "2025-08-29",
+            "deadline": "2025-08-29",
+            "links": {
+                "Slides": "/static/slides/CL05_booleans_conditionals.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "Boolean Operators",
+            "date": "2025-08-29",
+            "deadline": "2025-08-29",
+            "links": {
+                "Complete Lesson 05 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "Conditionals",
+            "date": "2025-08-29",
+            "deadline": "2025-08-29",
+            "links": {
+                "Complete Lesson 06 Responses on Gradescope": "https://www.gradescope.com/"
+            }
         }
     ],
     "2025-08-30": [],
