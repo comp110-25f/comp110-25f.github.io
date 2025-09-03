@@ -1,5 +1,36 @@
 {
-    "2025-09-03": [],
+    "2025-09-03": [
+        {
+            "kind": "CL",
+            "n": 5,
+            "title": "Boolean Operators and Intro to Conditional Control Flow",
+            "date": "2025-09-03",
+            "deadline": "2025-09-03",
+            "links": {
+                "Slides": "/static/slides/CL05_booleans_conditionals.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "Boolean Operators",
+            "date": "2025-09-03",
+            "deadline": "2025-09-03",
+            "links": {
+                "Complete Lesson 05 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "Conditionals",
+            "date": "2025-09-03",
+            "deadline": "2025-09-03",
+            "links": {
+                "Complete Lesson 06 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-09-04": [],
     "2025-09-05": [],
     "2025-09-06": [],
