@@ -1,19 +1,36 @@
 {
-    "2025-09-05": [
+    "2025-09-08": [
         {
             "kind": "CL",
-            "n": 6,
-            "title": "Practice with Conditional Control Flow",
-            "date": "2025-09-05",
-            "deadline": "2025-09-05",
+            "n": 7,
+            "title": "Intro to Recursion and f-Strings",
+            "date": "2025-09-08",
+            "deadline": "2025-09-08",
             "links": {
-                "Slides": "/static/slides/CL06_ Practice with Conditional Control Flow.pdf"
+                "Slides": "/static/slides/CL07_Recursion_fStrings.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "Intro to Recursion",
+            "date": "2025-09-08",
+            "deadline": "2025-09-08",
+            "links": {
+                "Complete Lesson 07 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Recursive Memory Diagram",
+            "date": "2025-09-08",
+            "deadline": "2025-09-08",
+            "links": {
+                "": "https://www.gradescope.com"
             }
         }
     ],
-    "2025-09-06": [],
-    "2025-09-07": [],
-    "2025-09-08": [],
     "2025-09-09": [],
     "2025-09-10": [],
     "2025-09-11": [],
