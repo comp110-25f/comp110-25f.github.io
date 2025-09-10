@@ -225,7 +225,8 @@
             "date": "2025-09-08",
             "deadline": "2025-09-08",
             "links": {
-                "Slides": "/static/slides/CL07_Recursion_fStrings.pdf"
+                "Slides": "/static/slides/CL07_Recursion_fStrings.pdf",
+                "Optional Reading about Unicode and f-Strings": "/lessons/strings.html"
             }
         },
         {

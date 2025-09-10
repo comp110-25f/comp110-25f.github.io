@@ -225,7 +225,8 @@
             "date": "2025-09-08",
             "deadline": "2025-09-08",
             "links": {
-                "Slides": "/static/slides/CL07_Recursion_fStrings.pdf"
+                "Slides": "/static/slides/CL07_Recursion_fStrings.pdf",
+                "Optional Reading about Unicode and f-Strings": "/lessons/strings.html"
             }
         },
         {
@@ -258,7 +259,8 @@
             "date": "2025-09-10",
             "deadline": "2025-09-10",
             "links": {
-                "Slides": "/static/slides/CL08_positionalArgs_recursion.pdf"
+                "Slides": "/static/slides/CL08_positionalArgs_recursion.pdf",
+                "Optional Reading": "/lessons/recursion.html"
             }
         },
         {
