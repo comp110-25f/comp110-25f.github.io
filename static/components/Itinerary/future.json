@@ -1,38 +1,26 @@
 {
-    "2025-09-08": [
+    "2025-09-10": [
         {
             "kind": "CL",
-            "n": 7,
-            "title": "Intro to Recursion and f-Strings",
-            "date": "2025-09-08",
-            "deadline": "2025-09-08",
+            "n": 8,
+            "title": "Positional Arguments and Practice with Recursion",
+            "date": "2025-09-10",
+            "deadline": "2025-09-10",
             "links": {
-                "Slides": "/static/slides/CL07_Recursion_fStrings.pdf"
+                "Slides": "/static/slides/CL08_positionalArgs_recursion.pdf"
             }
         },
         {
-            "kind": "LS",
-            "n": 7,
-            "title": "Intro to Recursion",
-            "date": "2025-09-08",
-            "deadline": "2025-09-08",
+            "kind": "EX",
+            "n": 2,
+            "title": "Wordle (Due Tuesday 9/16)",
+            "date": "2025-09-10",
+            "deadline": "2025-09-16",
             "links": {
-                "Complete Lesson 07 Responses on Gradescope": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 1,
-            "title": "Recursive Memory Diagram",
-            "date": "2025-09-08",
-            "deadline": "2025-09-08",
-            "links": {
-                "": "https://www.gradescope.com"
+                "": "/exercises/ex02_wordle.html"
             }
         }
     ],
-    "2025-09-09": [],
-    "2025-09-10": [],
     "2025-09-11": [],
     "2025-09-12": [],
     "2025-09-13": [],
