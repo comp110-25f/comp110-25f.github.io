@@ -301,9 +301,9 @@
         {
             "kind": "EX",
             "n": 2,
-            "title": "Wordle (Due Sunday 9/21)",
+            "title": "Wordle (Due Monday 9/22)",
             "date": "2025-09-12",
-            "deadline": "2025-09-21",
+            "deadline": "2025-09-22",
             "links": {
                 "": "/exercises/ex02_wordle.html"
             }
