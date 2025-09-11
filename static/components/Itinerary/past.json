@@ -259,7 +259,7 @@
             "date": "2025-09-10",
             "deadline": "2025-09-10",
             "links": {
-                "Slides": "/static/slides/CL08_positionalArgs_recursion.pdf",
+                "Slides": "/static/slides/CL08_positionalArgs_recursion_SOLS.pdf",
                 "Optional Reading": "/lessons/recursion.html"
             }
         }
