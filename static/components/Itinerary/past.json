@@ -250,5 +250,28 @@
             }
         }
     ],
-    "2025-09-09": []
+    "2025-09-09": [],
+    "2025-09-10": [
+        {
+            "kind": "CL",
+            "n": 8,
+            "title": "Positional Arguments and Practice with Recursion",
+            "date": "2025-09-10",
+            "deadline": "2025-09-10",
+            "links": {
+                "Slides": "/static/slides/CL08_positionalArgs_recursion.pdf",
+                "Optional Reading": "/lessons/recursion.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "Wordle (Due Tuesday 9/16)",
+            "date": "2025-09-10",
+            "deadline": "2025-09-16",
+            "links": {
+                "": "/exercises/ex02_wordle.html"
+            }
+        }
+    ]
 }
