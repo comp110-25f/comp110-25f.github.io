@@ -273,7 +273,7 @@
             "date": "2025-09-12",
             "deadline": "2025-09-12",
             "links": {
-                "Slides": "/static/slides/CL09_variables_whileLoops.pdf",
+                "Slides": "/static/slides/CL09-annotated.pdf",
                 "Optional Reading about Variables": "/lessons/variables.html",
                 "Optional Reading about while Loops": "/lessons/while_loops.html"
             }
