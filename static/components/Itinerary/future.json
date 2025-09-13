@@ -1,48 +1,4 @@
 {
-    "2025-09-12": [
-        {
-            "kind": "CL",
-            "n": 9,
-            "title": "Variables and while Loops",
-            "date": "2025-09-12",
-            "deadline": "2025-09-12",
-            "links": {
-                "Slides": "/static/slides/CL09-annotated.pdf",
-                "Optional Reading about Variables": "/lessons/variables.html",
-                "Optional Reading about while Loops": "/lessons/while_loops.html"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 8,
-            "title": "Variables",
-            "date": "2025-09-12",
-            "deadline": "2025-09-12",
-            "links": {
-                "Complete Lesson 08 Responses on Gradescope": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 9,
-            "title": "while Loops",
-            "date": "2025-09-12",
-            "deadline": "2025-09-12",
-            "links": {
-                "Complete Lesson 09 Responses on Gradescope": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 2,
-            "title": "Wordle (Due Monday 9/22)",
-            "date": "2025-09-12",
-            "deadline": "2025-09-22",
-            "links": {
-                "": "/exercises/ex02_wordle.html"
-            }
-        }
-    ],
     "2025-09-13": [],
     "2025-09-14": [],
     "2025-09-15": [],
@@ -57,6 +13,7 @@
             "date": "2025-09-19",
             "deadline": "2025-09-19",
             "links": {
+                "Quiz Practice": "/static/practice/qz01_practice/qz01_practice.html",
                 "Hybrid Review Session at 6pm on Sep 17 (in Sitterson 014 and online)": "/"
             }
         }
