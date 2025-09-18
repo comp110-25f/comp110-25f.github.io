@@ -321,7 +321,8 @@
             "date": "2025-09-17",
             "deadline": "2025-09-17",
             "links": {
-                "Practice Quiz": "/static/slides/COMP110___25_Fall___Quiz_1_Review.pdf"
+                "Blank Practice Questions": "/static/slides/COMP110___25_Fall___Quiz_1_Review.pdf",
+                "Practice Question Solutions": "/static/slides/COMP110___25_Fall___Quiz_1_Review_sols.pdf"
             }
         }
     ],

@@ -1,16 +1,4 @@
 {
-    "2025-09-17": [
-        {
-            "kind": "CL",
-            "n": 10,
-            "title": "Quiz Review",
-            "date": "2025-09-17",
-            "deadline": "2025-09-17",
-            "links": {
-                "Practice Quiz": "/static/slides/COMP110___25_Fall___Quiz_1_Review.pdf"
-            }
-        }
-    ],
     "2025-09-18": [],
     "2025-09-19": [
         {

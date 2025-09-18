@@ -312,5 +312,18 @@
     "2025-09-13": [],
     "2025-09-14": [],
     "2025-09-15": [],
-    "2025-09-16": []
+    "2025-09-16": [],
+    "2025-09-17": [
+        {
+            "kind": "CL",
+            "n": 10,
+            "title": "Quiz Review",
+            "date": "2025-09-17",
+            "deadline": "2025-09-17",
+            "links": {
+                "Blank Practice Questions": "/static/slides/COMP110___25_Fall___Quiz_1_Review.pdf",
+                "Practice Question Solutions": "/static/slides/COMP110___25_Fall___Quiz_1_Review_sols.pdf"
+            }
+        }
+    ]
 }
