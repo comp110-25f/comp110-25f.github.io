@@ -1,5 +1,16 @@
 {
-    "2025-09-22": [],
+    "2025-09-22": [
+        {
+            "kind": "CL",
+            "n": 11,
+            "title": "Relative Reassignment Operators and More Practice with while Loops",
+            "date": "2025-09-22",
+            "deadline": "2025-09-22",
+            "links": {
+                "Slides": "/static/slides/CL11_Relative Reassignment Operators and Practice with while Loops FOR SITE.pdf"
+            }
+        }
+    ],
     "2025-09-23": [],
     "2025-09-24": [],
     "2025-09-25": [],
