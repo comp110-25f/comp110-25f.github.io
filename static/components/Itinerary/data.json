@@ -338,6 +338,16 @@
                 "Quiz Practice": "/static/practice/qz01_practice/qz01_practice.html",
                 "Review Session Recording": "https://youtu.be/3N6FCX3DwKM"
             }
+        },
+        {
+            "kind": "CL",
+            "n": 11,
+            "title": "Relative Reassignment Operators and More Practice with while Loops",
+            "date": "2025-09-19",
+            "deadline": "2025-09-19",
+            "links": {
+                "Slides": "/static/slides/CL11_Relative Reassignment Operators and Practice with while Loops FOR SITE.pdf"
+            }
         }
     ],
     "2025-09-20": [],
