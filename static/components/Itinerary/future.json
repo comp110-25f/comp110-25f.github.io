@@ -7,15 +7,15 @@
             "date": "2025-09-26",
             "deadline": "2025-09-26",
             "links": {
-                "Slides": "/static/slides/CL13_ Reference Types, Practice with Lists, and Nested while Loops.pdf"
+                "Slides": "/static/slides/CL13_ Reference Types, Practice with Lists.pdf"
             }
         },
         {
             "kind": "CQ",
             "n": 2,
-            "title": "Memory Diagram with Lists",
+            "title": "Memory Diagram with Lists (Due Monday 9/29)",
             "date": "2025-09-26",
-            "deadline": "2025-09-26",
+            "deadline": "2025-09-29",
             "links": {
                 "": "https://www.gradescope.com"
             }
