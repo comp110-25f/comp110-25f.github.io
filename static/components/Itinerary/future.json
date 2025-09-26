@@ -1,38 +1,26 @@
 {
-    "2025-09-24": [
+    "2025-09-26": [
         {
             "kind": "CL",
-            "n": 12,
-            "title": "Intro to Lists",
-            "date": "2025-09-24",
-            "deadline": "2025-09-24",
+            "n": 13,
+            "title": "Reference Types and Practice with Lists",
+            "date": "2025-09-26",
+            "deadline": "2025-09-26",
             "links": {
-                "Slides": "/static/slides/CL12_ Intro to Lists.pdf"
+                "Slides": "/static/slides/CL13_ Reference Types, Practice with Lists, and Nested while Loops.pdf"
             }
         },
         {
-            "kind": "LS",
-            "n": 10,
-            "title": "Lists",
-            "date": "2025-09-24",
-            "deadline": "2025-09-24",
+            "kind": "CQ",
+            "n": 2,
+            "title": "Memory Diagram with Lists",
+            "date": "2025-09-26",
+            "deadline": "2025-09-26",
             "links": {
-                "Complete Lesson 10 Responses on Gradescope": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 3,
-            "title": "List Utils (Due Monday 9/29)",
-            "date": "2025-09-24",
-            "deadline": "2025-09-29",
-            "links": {
-                "": "/exercises/ex03_list_utils_p1.html"
+                "": "https://www.gradescope.com"
             }
         }
     ],
-    "2025-09-25": [],
-    "2025-09-26": [],
     "2025-09-27": [],
     "2025-09-28": [],
     "2025-09-29": [],
