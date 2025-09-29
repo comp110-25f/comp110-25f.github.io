@@ -413,7 +413,18 @@
     ],
     "2025-09-27": [],
     "2025-09-28": [],
-    "2025-09-29": [],
+    "2025-09-29": [
+        {
+            "kind": "CL",
+            "n": 14,
+            "title": "Intro to Sets and Dictionaries",
+            "date": "2025-09-29",
+            "deadline": "2025-09-29",
+            "links": {
+                "Slides": "/static/slides/CL14_ Sets and Dictionaries FOR SITE.pdf"
+            }
+        }
+    ],
     "2025-09-30": [],
     "2025-10-01": [],
     "2025-10-02": [],

@@ -1,30 +1,16 @@
 {
-    "2025-09-26": [
+    "2025-09-29": [
         {
             "kind": "CL",
-            "n": 13,
-            "title": "Reference Types and Practice with Lists",
-            "date": "2025-09-26",
-            "deadline": "2025-09-26",
-            "links": {
-                "Slides": "/static/slides/CL13_ Reference Types, Practice with Lists.pdf",
-                "CQ Video": "https://youtu.be/ftpxEGyxnOQ"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 2,
-            "title": "Memory Diagram with Lists (Due Monday 9/29)",
-            "date": "2025-09-26",
+            "n": 14,
+            "title": "Intro to Sets and Dictionaries",
+            "date": "2025-09-29",
             "deadline": "2025-09-29",
             "links": {
-                "": "https://www.gradescope.com"
+                "Slides": "/static/slides/CL14_ Sets and Dictionaries FOR SITE.pdf"
             }
         }
     ],
-    "2025-09-27": [],
-    "2025-09-28": [],
-    "2025-09-29": [],
     "2025-09-30": [],
     "2025-10-01": [],
     "2025-10-02": [],
