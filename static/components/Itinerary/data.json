@@ -446,6 +446,16 @@
             "links": {
                 "Complete Lesson 11 Responses on Gradescope": "https://www.gradescope.com/"
             }
+        },
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "Dictionary Utils (Due Tuesday 10/7)",
+            "date": "2025-10-01",
+            "deadline": "2025-10-07",
+            "links": {
+                "": "/exercises/ex04_dict_utils.html"
+            }
         }
     ],
     "2025-10-02": [],
