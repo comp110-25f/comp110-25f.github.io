@@ -425,5 +425,38 @@
             }
         }
     ],
-    "2025-09-30": []
+    "2025-09-30": [],
+    "2025-10-01": [
+        {
+            "kind": "CL",
+            "n": 15,
+            "title": "More on Sets and Dictionaries, Intro to for Loops",
+            "date": "2025-10-01",
+            "deadline": "2025-10-01",
+            "links": {
+                "Slides": "/static/slides/CL15_ More on Sets, Dictionaries.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 11,
+            "title": "Dictionaries",
+            "date": "2025-10-01",
+            "deadline": "2025-10-01",
+            "links": {
+                "Complete Lesson 11 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "Dictionary Utils (Due Tuesday 10/7)",
+            "date": "2025-10-01",
+            "deadline": "2025-10-07",
+            "links": {
+                "": "/exercises/ex04_dict_utils.html"
+            }
+        }
+    ],
+    "2025-10-02": []
 }
