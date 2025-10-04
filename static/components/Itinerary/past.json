@@ -458,5 +458,17 @@
             }
         }
     ],
-    "2025-10-02": []
+    "2025-10-02": [],
+    "2025-10-03": [
+        {
+            "kind": "CL",
+            "n": 16,
+            "title": "range() and Dictionary Practice",
+            "date": "2025-10-03",
+            "deadline": "2025-10-03",
+            "links": {
+                "Slides": "/static/slides/CL16_ range and Dictionary Practice.pdf"
+            }
+        }
+    ]
 }
