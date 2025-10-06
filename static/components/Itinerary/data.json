@@ -481,7 +481,8 @@
             "date": "2025-10-06",
             "deadline": "2025-10-06",
             "links": {
-                "Slides": "/static/slides/CL17_ Comparing Lists and Sets.pdf"
+                "Blank Slides": "/static/slides/CL17_ Comparing Lists and Sets.pdf",
+                "Annotated Slides": "/static/slides/CL17_annotated.pdf"
             }
         }
     ],
