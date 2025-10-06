@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Quiz 02 Memory Diagram Practice Problems - COMP110 - 25F</title>
+  <link rel="icon" type="image/png" href="/static/s25_brand.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/static/styles.css?v=1759713097.8536117">
+</head>
+
+
+<body id="body" class="absolute-page">
+    <script>
+        document.body.classList.remove('light-mode');
+        document.body.classList.remove('dark-mode');
+        document.body.classList.add(localStorage.getItem('mode'));
+    </script>
+  <script src="/static/scripts/nav-menu-esc.js"></script> 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark py-1 fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/"><img class="lightmode-element-only img-fluid logo" src="/static/s25_brand.png"
+        alt="COMP110 - Spring - 2025"><img class="darkmode-element-only img-fluid logo" src="/static/s25_brand.png"
+        alt="COMP110 - Spring - 2025"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" onclick="esc_key()" data-bs-target="#navmenu" aria-label="Main Menu" aria-controls="#navmenu" role="navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="/">agenda</a>
+          </li>
+          <li class="nav-item">
+            <a href="/resources" class="nav-link">resources</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="/support" class="nav-link">support</a>
+          </li>
+         
+          <li class="nav-item">
+            <a href="/resources/syllabus.html" class="nav-link">syllabus</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="/resources/team.html" class="nav-link">team110</a>
+          </li>
+         
+        </ul>
+      </div>
+      <div id='mode-switch' class="ms-auto form-check form-switch mode switches">
+              <div class="switches">
+                  <input type="checkbox" id="1" onclick="
+                      if (localStorage.getItem('mode') === 'dark-mode') {
+                          localStorage.setItem('userPref', 'light-mode');
+                          localStorage.setItem('mode', 'light-mode');
+                      } else {
+                          localStorage.setItem('userPref', 'dark-mode');
+                          localStorage.setItem('mode', 'dark-mode');
+                      }
+                      location.reload();">
+                  <label for="1">
+                      <span id="mode-label">Dark Mode</span>
+                      <span></span>
+                  </label>
+                  <script>if(localStorage.getItem('mode') === 'dark-mode'){document.getElementById("1").checked = true}</script>
+                  <script>if(localStorage.getItem('userPref') === null) {setTimeout(function(){location.reload();}, (timer * 3600000));}</script>
+              </div>
+          </div>
+    </div>
+  </nav>
+
+  <div class="cloud-container">
+    <div id="cloud-intro">
+  <div id="lessons-page" class="container">
+    <div class="row pt-4">
+      <div class="col-12">
+        <h1 id="page-title">Quiz 02 Memory Diagram Practice Problems</h1>
+      </div>
+    </div>
+    
+
+    <script src="/static/scripts/toggle-handler.js"></script>
+    
+    <div class="row px-4">
+        <div id="box" class="toc col-xl-3 col-lg-3 order-1 order-lg-2" role="doc-toc">
+            <div>
+                <div id="menu-overview" class="link-page-overview horizon-box">
+                    <button id="overview-button" class="btn btn-ov" onclick="hideshow()" >Overview  <img id="button-img" alt="Overview" class="filter-icon" src="/static/components/Itinerary/arrow-up.svg" style="height:15px; padding-left: 4px;"></button>
+                    <div id="overview-links">
+                        <div id="TOC" role="doc-toc">
+                            <ul class="overview-item"><ul>
+<li><a href="#lists">Lists</a></li>
+<li><a href="#dictionaries">Dictionaries</a></li>
+</ul>
+</</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content" class="content box col-xl-9 col-lg-9 order-2 order-lg-1 pt-3"><h1 id="lists">Lists</h1>
+<ol type="1">
+<li>Create a memory diagram for the following code listing.</li>
+</ol>
+<pre>
+<code class="python">    """Practice diagram."""
+
+    def check_quiz(responses: list[bool]) -> int:
+        answer_key: list[bool] = [True, True, False]
+        correct: int = 0
+        idx: int = 0
+        while idx < len(responses):
+            if responses[idx] == answer_key[idx]:
+                correct += 1
+                idx += 1
+            else:
+                idx += 1
+        return correct
+
+    def main() -> None:
+        my_quiz: list[bool] = [True, True, True]
+        grade: int = check_quiz(my_quiz)
+        print(f"{grade} out of 3 questions correct.")
+
+
+    main()
+</code></pre>
+<ol start="2" type="1">
+<li>Create a memory diagram for the following code listing.</li>
+</ol>
+<pre>
+<code class="python">   """Practice diagram."""
+
+    def create() -> list[int]:
+        """An obnoxious way to make a list."""
+        list_1: list[int] = []
+        i: int = 0
+        while i < 3:
+            list_1.append(i)
+            i += 1
+        return list_1
+
+
+    def increase(a_list: list[int], x: int) -> None:
+        """Lets pump it up!"""
+        i: int = 0
+        while i < len(a_list):
+            a_list[i] += x
+            i += 1
+        return None
+
+
+    def main() -> None:
+        """Entrypoint of the program."""
+        list_1: list[int] = create()
+        list_2: list[int] = list_1
+        list_1 = create()
+        increase(list_1, 2)
+        print(list_1)
+        print(list_2)
+
+
+    main()
+</code></pre>
+<ol start="3" type="1">
+<li>Create a memory diagram for the following code listing.</li>
+</ol>
+<pre>
+<code class="python">   """Practice diagram."""
+
+    def f(x: list[str]) -> str:
+        for y in range(0,len(x)):
+            x[y] += "x"
+        return x[y]
+
+    def g(x: list[str]) -> list[str]:
+        new_list: list[str] = []
+        for z in x:
+            new_list.append(str(z))
+        return new_list
+
+    record: list[str] = ["x", "y"]
+    print(f(record))
+    print(g(record))
+</code></pre>
+<ol start="4" type="1">
+<li>Create a memory diagram for the following code listing.</li>
+</ol>
+<pre>
+<code class="python">   """Practice diagram."""
+
+    def change_and_check(x: int, nums: list[int]) -> int:
+        """Let's see what happens!"""
+        if x < 0:
+            return 0
+        i: int = 0
+        while i < len(nums):
+            nums[i] += x
+            i += 1
+        i = 0
+        while i < len(nums):
+            if nums[i] == x:
+                return 0
+            i += 1
+        return x - 1
+
+
+    def main() -> None:
+        """The entrypoint of this program."""
+        num_1: int = 0
+        list_1: list[int] = [1, 2, num_1]
+        list_1.append(change_and_check(2, list_1))
+        list_1.append(change_and_check(3, list_1))
+
+    main()
+</code></pre>
+<ol start="5" type="1">
+<li>Create a memory diagram for the following code listing.</li>
+</ol>
+<pre>
+<code class="python">   """Practice diagram."""
+
+    def apply_discounts(order_amounts: list[float]) -> list[float]:
+        index: int = 0
+        counter: int = 0
+        discounted_amounts: list[float] = []
+
+        while index < len(order_amounts):
+            amount: float = order_amounts[index]
+
+            if amount > 50:
+                discount = 0.10
+            else:
+                discount = 0
+
+            discounted_amount = amount * (1 - discount)
+            discounted_amounts.append(discounted_amount)
+
+            counter += 1
+            index += 1
+
+        print(f"Total orders processed: {counter}")
+        return discounted_amounts
+
+    def main() -> None:
+        order_amounts: list[float] = [45.0, 75.0, 150.0, 30.0]
+        discounted_amounts: list[float] = apply_discounts(order_amounts)
+        print(discounted_amounts)
+
+    if __name__ == "__main__":
+        main()
+</code></pre>
+<details>
+<p><summary>SHOW SOLUTIONS</summary></p>
+<ol type="1">
+<li><p><a href="https://youtu.be/ZAH1mpf6GKc?si=8BgFglBAlJ4QJJQS">Video</a></p>
+<p><img class="img-fluid" src="/static/practice/qz02_practice/lists-01-sol.jpg" alt=""/></p>
+<p><em>Image Description</em></p>
+<p>The Memory Diagram includes one box titled Output and below that box two columns, the left one titled Stack and the right one titled Heap.</p>
+<p>The Stack includes 3 frames in the following order from top to bottom including Globals, main, and check_quiz.</p>
+<p>The Globals frame has 2 variables including check_quiz and main.</p>
+<ul>
+<li>check_quiz has id 0, it is a function on the Heap (lines 1-11).</li>
+<li>main points id 1, it is a function on the Heap (lines 14-17).</li>
+</ul>
+<p>The main frame has 4 items including the RA and RV, and variables named my_quiz and grade.</p>
+<ul>
+<li>The RA is defined at line 19.</li>
+<li>The RV is None.</li>
+<li>my_quiz has id 2, it is a list[bool] on the Heap.
+<ul>
+<li>Indexes 0, 1, 2 and values True, True, True respectively.</li>
+</ul></li>
+<li>grade is 2.</li>
+</ul>
+<p>The check_quiz frame has 6 items including the RA and RV, and variables named responses, answer_key, correct, and idx.</p>
+<ul>
+<li>The RA is defined at line 15.</li>
+<li>The RV is 2.</li>
+<li>responses has id 2.</li>
+<li>answer_key has id 3, it is a list[bool] on the Heap.
+<ul>
+<li>Indexes 0, 1, 2 and values True, True, False respectively.</li>
+</ul></li>
+<li>correct is 2.
+<ul>
+<li>Previous values of correct include 0 and 1, which are now crossed out.</li>
+</ul></li>
+<li>idx is 3.
+<ul>
+<li>Previous values of idx include 0, 1, and 2, which are now crossed out.</li>
+</ul></li>
+</ul>
+<p>The Heap includes 2 function objects, and 2 list[bool] objects.</p>
+<p>Output includes the phrase: “2 out of 3 questions correct.”</p></li>
+<li><p><a href="https://youtu.be/WxRQAmKlESU?si=G-i5_TWdt_Uc9n9n">Video</a></p>
+<p><img class="img-fluid" src="/static/practice/qz02_practice/refs.png" alt=""/></p></li>
+<li><p><img class="img-fluid" src="/static/practice/qz02_practice/lists-02-sol.jpg" alt=""/></p>
+<p><!-- * Note that for this solution, we did not represent the `range()` function on the heap! We instead just represented `y` as a variable on the stack that gets updated. If you chose to include a "range" object to the heap, we wouldn't take points off, but we are really just looking for the value of `y`!
+
+ <img class="img-fluid" src="/static/assets/f23/lists00-sol.png" alt=""  /> ---></p>
+<p><em>Image Descriptions:</em> Under Globals:</p>
+<ul>
+<li>Variable f has id 0, it is a function labeled Fn [1-4] on the Heap.</li>
+<li>Variable g id 1, it is a function labeled Fn [1-6] on the Heap.</li>
+<li>Variable record id 2, it is a list object on the Heap with the type list[str].</li>
+</ul>
+<p>The f function frame has:</p>
+<ul>
+<li>Return Address (RA) pointing to line 13.</li>
+<li>Variables x and y, where x has id 2, and y with a value of 1 and a crossed-out value of 0.</li>
+<li>Return Value (RV) with a value of “yx”.</li>
+</ul>
+<p>The g function frame has:</p>
+<ul>
+<li>Return Address (RA) pointing to line 14.</li>
+<li>Variables x has id 2, new_list has id 3 which is list object on the Heap with type list[str].</li>
+<li>Variable z has the crossed-out string “xx”, with a final value of “yx”.</li>
+<li>Return Value (RV) has id 3.</li>
+</ul>
+<p>The Heap section shows two list objects and two string objects:</p>
+<ul>
+<li>The first list on the heap has two values. The first value is “xx” with a crossed-out value of “x”. The second value is “yx” with a crossed-out value of “y”.</li>
+<li>The second list on the heap has two values. The first value is “xx” and the second value is “yx”.</li>
+</ul>
+<p>The Output section at the top first prints “yx”, then the list [“xx”,”yx”].</p></li>
+<li><p><img class="img-fluid" src="/static/practice/qz02_practice/change-and-check.png" alt="Image Description Here"  /></p></li>
+<li><p><img class="img-fluid" src="/static/practice/qz02_practice/discount-soln.jpg" alt="Image Description Here"  /></p></li>
+</ol>
+</details>
+<h1 id="dictionaries">Dictionaries</h1>
+<ol type="1">
+<li></li>
+</ol>
+<pre>
+<code class="python">   """Practice diagram."""
+
+    def count(xs: list[int]) -> dict[int, int]:
+        counts: dict[int, int] = {}
+        for x in xs:
+            if x in counts:
+                counts[x] += 1
+            else:
+                counts[x] = 1
+        return counts
+
+
+    numbers: list[int] = [1, 1, 0]
+    print(count(numbers))
+</code></pre>
+<ol start="2" type="1">
+<li></li>
+</ol>
+<pre>
+<code class="python">   """Practice diagram."""
+
+    def artist_counts(playlist: dict[str, str]) -> dict[str, int]:
+        artists: dict[str, int] = dict()
+        for track in playlist:
+            art: str = playlist[track]
+            if playlist[track] not in artists:
+                artists[art] = 1
+            else:
+                artists[art] += 1
+        return artists
+
+    songs: dict[str, str] = {
+        "B2b": "Charli",
+        "Hello": "Erykah",
+        "Fiat": "Butcher",
+        "Woo": "Erykah"
+    }
+
+    print(artist_counts(songs))
+</code></pre>
+<ol start="3" type="1">
+<li></li>
+</ol>
+<pre>
+<code class="python">   """Practice diagram."""
+
+    def f(x: dict[str,int]) -> int:
+        for y in x:
+            x[y] += 1
+        return x[y]
+
+    def g(x: dict[str,int]) -> dict[str,str]:
+        new_dict: dict[str,str] = {}
+        for z in x:
+            new_dict[z] = str(z)
+        return new_dict
+
+    record: dict[str, int] = {"x": 20, "y": 40}
+    print(f(record))
+    print(g(record))
+</code></pre>
+<ol start="4" type="1">
+<li></li>
+</ol>
+<pre>
+<code class="python">   """Practice diagram."""
+
+    def mystery(x: dict[str,float], y: str) -> str:
+        if y in x:
+            return str(x[y])
+        else:
+            return "not in dictionary"
+
+    x = "y"
+    y = "z"
+    test: dict[str,float] = {"z": 3.14}
+    print(mystery(test, y))
+</code></pre>
+<ol start="5" type="1">
+<li></li>
+</ol>
+<pre>
+<code class="python">   """Practice diagram."""
+
+    starting = dict[str, list[str]] = {}
+    starting["2017"] = ["Berry", "Meeks", "Jackson"]
+    starting["2023"] = ["Love", "Bacot", "Black"]
+
+    print(starting["2017"][2])
+    print(starting["2023"])
+    starting["2023"][2] = "Johnson"
+    print(starting["2023"])
+</code></pre>
+<ol start="6" type="1">
+<li></li>
+</ol>
+<pre>
+<code class="python">   """Practice diagram."""
+
+    def add_item(inventory, item, quantity) -> None:
+        item_found = False
+        for key in inventory:
+            if key == item:
+                inventory[key] += quantity
+                item_found = True
+
+        if not item_found:
+            inventory[item] = quantity
+
+    def remove_item(inventory, item, quantity) -> None:
+        item_found = False
+        for key in inventory:
+            if key == item:
+                inventory[key] -= quantity
+                if inventory[key] < 0:
+                    inventory[key] = 0
+                item_found = True
+
+    def main():
+        inventory = {
+            'Apples': 30,
+            'Oranges': 15,
+            'Bananas': 20
+        }
+
+        add_item(inventory, 'Apples', 10)
+        remove_item(inventory, 'Bananas', 25)
+
+        print("Current inventory:", inventory)
+
+    if __name__ == "__main__":
+        main()
+</code></pre>
+<details>
+<p><summary>SHOW SOLUTIONS</summary></p>
+<ol type="1">
+<li><p><img class="img-fluid" src="/static/practice/qz02_practice/count_memdiag.png" alt="Memory diagram of code listing with count function"  /></p></li>
+<li><p><img class="img-fluid" src="/static/practice/qz02_practice/artistcounts_memdiag.png" alt="Memory diagram of code listing with artist_counts function"  /></p></li>
+<li><p><a href="https://youtu.be/pyl28ClXwfY?si=QwIDQdlgjupNA1R3">Video</a></p>
+<p><img class="img-fluid" src="/static/practice/qz02_practice/record-sol.png" alt=""  /></p>
+<p><em>Image Description:</em> The memory diagram is divided into three segments: Output, Stack, and Heap.</p>
+<p>Under the stack, the Globals frame contains references to three objects:</p>
+<ul>
+<li>Function f points to a function on the Heap defined from lines 1 to 4.</li>
+<li>Function g points to a function on the Heap defined from lines 6 to 10.</li>
+<li>The variable record points to a dictionary object on the Heap with string keys and integer values.</li>
+</ul>
+<p>The F frame has:</p>
+<ul>
+<li>Return Address (RA) at line 13.</li>
+<li>Return Value (RV) is the integer 41.</li>
+<li>Variable x points to a the same dictionary object on the heap as record.</li>
+<li>Variable y with a crossed-out value of “x” and updated to “y”.</li>
+</ul>
+<p>The G frame has:</p>
+<ul>
+<li>Return Address (RA) at line 14.</li>
+<li>Variable x points to the same dictionary object as record.</li>
+<li>Variable new_dict to a second dictionary object on the Heap.</li>
+<li>Variable z with a crossed-out value of “x” updated to “y”.</li>
+</ul>
+<p>The heap has two dictionary objects:</p>
+<ul>
+<li>The first dictionary object is associated with the variable record in Globals frame and the variable x in the F and G frames. It contains two string keys, ‘x’ with the integer value 20 crossed out and updated to 21, and ‘y’ with the integer value 40 crossed out and updated to 41.</li>
+<li>The second dictionary object is associated with the variable new_dict in the G frame, with string keys ‘x’ and ‘y’ and string values ‘x’ and ‘y’ respectively.</li>
+</ul>
+<p>Output: The output displays the integer 41 and a dictionary object with keys ‘x’ and ‘y’, each paired with their respective values ‘x’ and ‘y’ as strings.</p></li>
+<li><p><a href="https://youtu.be/SZrv9TT84Iw">Video</a></p>
+<p><img class="img-fluid" src="/static/practice/qz02_practice/mystery-dict-sol.png" alt=""  /></p>
+<p><em>Image Description:</em> The memory diagram provided displays elements in the Output, Stack, and Heap sections.</p>
+<p>Stack:</p>
+<p>The Globals frame contains three variables and a function:</p>
+<ul>
+<li>Function mystery points to a function definition on the Heap spanning lines 1 to 5.</li>
+<li>Variable x with the string value “y”.</li>
+<li>Variable y with the string value “z”.</li>
+<li>Variable test points to a dictionary on the Heap.</li>
+</ul>
+<p>The mystery frame has:</p>
+<ul>
+<li>Return Address (RA) at line 10.</li>
+<li>Return Value (RV) is the string “3.14”.</li>
+<li>Variable x points to the same dictionary object as test</li>
+<li>Variable y has a value of “z”.</li>
+</ul>
+<p>Heap:</p>
+<ul>
+<li>A dictionary object with string keys and a floating-point value is present. It contains a single entry where the key is the string “z” and the value is the floating-point number 3.14.</li>
+</ul>
+<p>Output: The output section shows the floating-point number 3.14.</p></li>
+<li><p><a href="https://youtu.be/KcP6rkkHrEs">Video</a></p></li>
+</ol>
+<p><img class="img-fluid" src="/static/practice/qz02_practice/lineup-sol.png" alt="Image Description Here"  /></p>
+<p><em>Image Description:</em> The memory diagram provided contains three main components: Stack, Heap, and Output.</p>
+<p>Stack: * The Stack section contains a single frame labeled “Globals.” * Inside Globals, there is a variable named starting pointing to a list on the Heap.</p>
+<p>Heap: * The first part is a dictionary object with string keys and lists of strings for values. There are two keys: “2017” and “2023.” Each key points to a different list. * The second part consists of two lists of strings. Each list contains five elements with indices from 0 to 4. * The first list contains the following strings: “Berry”, “Meeks”, “Jackson”, “Pinson”, and “Hicks”. * The second list contains the strings: “Love”, “Bacot”, “Black”, “Johnson” (with “Nance” crossed-out), and “Davis”.</p>
+<p>The output section has three outputs: * The string “Jackson” * The list [“Love”, “Bacot”, “Black”, “Nance”, “Davis”] * The list [“Love”, “Bacot”, “Black”, “Johnson”, “Davis”]</p>
+<ol start="6" type="1">
+<li><img class="img-fluid" src="/static/practice/qz02_practice/inventory-nested.jpg" alt="Image Description Here"  /></li>
+</ol>
+</details>
+</div>
+
+       
+
+    </div> 
+    </div>
+    </div>
+    <div class="authors-box bg-dark mt-4 py-3 ps-4">
+      <span> Contributor(s):        Alyssa Lytle,        Kris Jordan,        Navya Katraju,        Olivia Xiao,        Viktorya Hunanyan,        Coralee Rogers, Benjamin Eldridge</span>
+    </div>
+
+  </div>
+  <div class='link-page mt-3 container'>
+    <footer>
+      <h3 class="text-center align-middle footer-text">&copy; 2025 <a href="https://krisjordan.com">Kris Jordan</a>
+        - <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSenaJ2uZ_n2FfAb2PWL6YPG4AUT-G2-xVJP6HIwMr6cd6nSYA/viewform?usp=sf_link">Feedback
+          Form</a>
+        - Made with 💛 in <a href="https://cs.unc.edu/">Chapel Hill</a></h3>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <!-- Code Block Formatting -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  
+</body>
+
+</html>

@@ -485,7 +485,9 @@
             "date": "2025-10-10",
             "deadline": "2025-10-10",
             "links": {
-                "Quiz Practice": "/static/practice/qz02_practice/QZ02_practice_v2.html"
+                "General Practice": "/static/practice/qz02_practice/QZ02_general_practice.html",
+                "Memory Diagram Practice": "/static/practice/qz02_practice/QZ02_memory_diagram_practice.html",
+                "Function Writing Practice": "/static/practice/qz02_practice/QZ02_function_practice.html"
             }
         }
     ],
