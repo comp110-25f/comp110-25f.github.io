@@ -450,9 +450,9 @@
         {
             "kind": "EX",
             "n": 4,
-            "title": "Dictionary Utils (Due Tuesday 10/7)",
+            "title": "Dictionary Utils (Due Wednesday 10/8)",
             "date": "2025-10-01",
-            "deadline": "2025-10-07",
+            "deadline": "2025-10-08",
             "links": {
                 "": "/exercises/ex04_dict_utils.html"
             }
@@ -471,5 +471,6 @@
             }
         }
     ],
-    "2025-10-04": []
+    "2025-10-04": [],
+    "2025-10-05": []
 }

@@ -450,9 +450,9 @@
         {
             "kind": "EX",
             "n": 4,
-            "title": "Dictionary Utils (Due Tuesday 10/7)",
+            "title": "Dictionary Utils (Due Wednesday 10/8)",
             "date": "2025-10-01",
-            "deadline": "2025-10-07",
+            "deadline": "2025-10-08",
             "links": {
                 "": "/exercises/ex04_dict_utils.html"
             }
@@ -473,7 +473,18 @@
     ],
     "2025-10-04": [],
     "2025-10-05": [],
-    "2025-10-06": [],
+    "2025-10-06": [
+        {
+            "kind": "CL",
+            "n": 17,
+            "title": "List and Set Comparison",
+            "date": "2025-10-06",
+            "deadline": "2025-10-06",
+            "links": {
+                "Slides": "/static/slides/CL17_ Comparing Lists and Sets.pdf"
+            }
+        }
+    ],
     "2025-10-07": [],
     "2025-10-08": [],
     "2025-10-09": [],
