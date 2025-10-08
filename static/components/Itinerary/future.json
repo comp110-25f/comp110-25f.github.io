@@ -1,19 +1,16 @@
 {
-    "2025-10-06": [
+    "2025-10-08": [
         {
             "kind": "CL",
-            "n": 17,
-            "title": "List and Set Comparison",
-            "date": "2025-10-06",
-            "deadline": "2025-10-06",
+            "n": 18,
+            "title": "Algorithmic Complexity and Quiz Practice",
+            "date": "2025-10-08",
+            "deadline": "2025-10-08",
             "links": {
-                "Blank Slides": "/static/slides/CL17_ Comparing Lists and Sets.pdf",
-                "Annotated Slides": "/static/slides/CL17_annotated.pdf"
+                "Blank Slides": "/static/slides/CL18_ Algorithmic Complexity  + Quiz Review (1).pdf"
             }
         }
     ],
-    "2025-10-07": [],
-    "2025-10-08": [],
     "2025-10-09": [],
     "2025-10-10": [
         {
