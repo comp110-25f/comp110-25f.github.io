@@ -486,5 +486,17 @@
             }
         }
     ],
-    "2025-10-07": []
+    "2025-10-07": [],
+    "2025-10-08": [
+        {
+            "kind": "CL",
+            "n": 18,
+            "title": "Algorithmic Complexity and Quiz Practice",
+            "date": "2025-10-08",
+            "deadline": "2025-10-08",
+            "links": {
+                "Slides": "/static/slides/CL18_slides.pdf"
+            }
+        }
+    ]
 }

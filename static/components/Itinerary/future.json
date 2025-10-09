@@ -1,16 +1,4 @@
 {
-    "2025-10-08": [
-        {
-            "kind": "CL",
-            "n": 18,
-            "title": "Algorithmic Complexity and Quiz Practice",
-            "date": "2025-10-08",
-            "deadline": "2025-10-08",
-            "links": {
-                "Slides": "/static/slides/CL18_slides.pdf"
-            }
-        }
-    ],
     "2025-10-09": [],
     "2025-10-10": [
         {
@@ -22,7 +10,8 @@
             "links": {
                 "General Practice": "/static/practice/qz02_practice/QZ02_general_practice.html",
                 "Memory Diagram Practice": "/static/practice/qz02_practice/QZ02_memory_diagram_practice.html",
-                "Function Writing Practice": "/static/practice/qz02_practice/QZ02_function_practice.html"
+                "Function-Writing Practice": "/static/practice/qz02_practice/QZ02_function_practice.html",
+                "Hybrid Review Session at 5:30pm on Oct 9 (in Sitterson 011 and online (Passcode: 110110))": "https://unc.zoom.us/j/93856817581?pwd=gXP6l82sFhuIQK3xYnjn2CO18YBzF5.1"
             }
         }
     ],
