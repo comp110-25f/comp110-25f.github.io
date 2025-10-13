@@ -1,23 +1,26 @@
 {
-    "2025-10-09": [],
-    "2025-10-10": [
+    "2025-10-13": [
         {
-            "kind": "QZ",
-            "n": 2,
-            "title": "Quiz 2",
-            "date": "2025-10-10",
-            "deadline": "2025-10-10",
+            "kind": "CL",
+            "n": 19,
+            "title": "Revisiting Commonly Missed Quiz Concepts",
+            "date": "2025-10-13",
+            "deadline": "2025-10-13",
             "links": {
-                "General Practice": "/static/practice/qz02_practice/QZ02_general_practice.html",
-                "Memory Diagram Practice": "/static/practice/qz02_practice/QZ02_memory_diagram_practice.html",
-                "Function Writing Practice": "/static/practice/qz02_practice/QZ02_function_practice.html",
-                "Review Session Recording": "https://youtu.be/lk-4q3_HbUw"
+                "Slides": "/static/slides/CL19.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 3,
+            "title": "Memory Diagram (Due Wednesday 10/15)",
+            "date": "2025-10-13",
+            "deadline": "2025-10-15",
+            "links": {
+                "": "https://www.gradescope.com"
             }
         }
     ],
-    "2025-10-11": [],
-    "2025-10-12": [],
-    "2025-10-13": [],
     "2025-10-14": [],
     "2025-10-15": [],
     "2025-10-16": [],
