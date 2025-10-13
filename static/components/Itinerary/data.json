@@ -525,13 +525,13 @@
             "date": "2025-10-13",
             "deadline": "2025-10-13",
             "links": {
-                "Slides": "/static/slides/CL19.pdf"
+                "Slides": "/static/slides/CL19_blank.pdf"
             }
         },
         {
             "kind": "CQ",
             "n": 3,
-            "title": "Memory Diagram (Due Wednesday 10/15)",
+            "title": "Memory Diagram from Class (Due Wednesday 10/15)",
             "date": "2025-10-13",
             "deadline": "2025-10-15",
             "links": {
