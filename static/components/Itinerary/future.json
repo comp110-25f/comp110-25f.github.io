@@ -1,28 +1,16 @@
 {
-    "2025-10-13": [
+    "2025-10-15": [
         {
             "kind": "CL",
-            "n": 19,
-            "title": "Revisiting Commonly Missed Quiz Concepts",
-            "date": "2025-10-13",
-            "deadline": "2025-10-13",
-            "links": {
-                "Slides": "/static/slides/CL19_blank.pdf"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 3,
-            "title": "Memory Diagram from Class (Due Wednesday 10/15)",
-            "date": "2025-10-13",
+            "n": 20,
+            "title": "Interactive Algorithm Example (no slides)",
+            "date": "2025-10-15",
             "deadline": "2025-10-15",
             "links": {
-                "": "https://www.gradescope.com"
+                "Slides": "/"
             }
         }
     ],
-    "2025-10-14": [],
-    "2025-10-15": [],
     "2025-10-16": [],
     "2025-10-17": [],
     "2025-10-18": [],
