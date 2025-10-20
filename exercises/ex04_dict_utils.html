@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1760972561.1705182">
+  <link rel="stylesheet" href="/static/styles.css?v=1760979150.414373">
 </head>
 
 
@@ -185,9 +185,11 @@ blue
 {'c': ['cat', 'car'], 'a': ['apple', 'angry'], 'b': ['boy', 'bad']}
 >>> alphabetizer(["Python", "sugar", "Turtle", "party", "table"])
 {'p': ['Python', 'party'], 's': ['sugar'], 't': ['Turtle', 'table']}
+>>> alphabetizer(["Hello", "#COMP110", "hello"])
+{'h': ['Hello', 'hello']}
 </div>
 </pre>
-<p>Hint: The built-in Python method <code>.lower()</code> takes in no arguments and returns the lower cased string of a given string.</p>
+<p>Hint 1: The built-in Python method <code>.lower()</code> takes in no arguments and returns the lower cased string of a given string. Hint 2: The built-in Python method <code>.isalpha()</code> can be called on any string and returns <code>True</code> if all characters in the string are alphabetic.</p>
 <h2 id="update_attendance">5. <code>update_attendance</code></h2>
 <p>Given a <code>dict[str, list[str]]</code>, this function will <em>mutate</em> and return None. It should meet the following specifications:</p>
 <ol type="1">
