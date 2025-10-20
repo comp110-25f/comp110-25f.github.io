@@ -556,7 +556,18 @@
     "2025-10-17": [],
     "2025-10-18": [],
     "2025-10-19": [],
-    "2025-10-20": [],
+    "2025-10-20": [
+        {
+            "kind": "CL",
+            "n": 21,
+            "title": "Importing and Writing Automated Tests for Functions",
+            "date": "2025-10-20",
+            "deadline": "2025-10-20",
+            "links": {
+                "Slides": "/static/slides/CL21_unitTests.pdf"
+            }
+        }
+    ],
     "2025-10-21": [],
     "2025-10-22": [],
     "2025-10-23": [],
