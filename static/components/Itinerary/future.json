@@ -1,28 +1,16 @@
 {
-    "2025-10-20": [
+    "2025-10-22": [
         {
             "kind": "CL",
-            "n": 21,
-            "title": "Importing and Writing Automated Tests for Functions",
-            "date": "2025-10-20",
-            "deadline": "2025-10-20",
+            "n": 22,
+            "title": "Practice with Unit Tests",
+            "date": "2025-10-22",
+            "deadline": "2025-10-22",
             "links": {
-                "Slides": "/static/slides/CL21_unit_tests.pdf"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 5,
-            "title": "Dictionary Unit Tests (Due Sunday 10/26)",
-            "date": "2025-10-20",
-            "deadline": "2025-10-26",
-            "links": {
-                "": "/exercises/ex05_dict_unit_tests.html"
+                "Slides": "/static/slides/CL22_ Practice with Unit Tests.pdf"
             }
         }
     ],
-    "2025-10-21": [],
-    "2025-10-22": [],
     "2025-10-23": [],
     "2025-10-24": [],
     "2025-10-25": [],

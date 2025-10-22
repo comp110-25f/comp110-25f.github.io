@@ -555,5 +555,28 @@
     "2025-10-16": [],
     "2025-10-17": [],
     "2025-10-18": [],
-    "2025-10-19": []
+    "2025-10-19": [],
+    "2025-10-20": [
+        {
+            "kind": "CL",
+            "n": 21,
+            "title": "Importing and Writing Automated Tests for Functions",
+            "date": "2025-10-20",
+            "deadline": "2025-10-20",
+            "links": {
+                "Slides": "/static/slides/CL21_unit_tests.pdf"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "Dictionary Unit Tests (Due Sunday 10/26)",
+            "date": "2025-10-20",
+            "deadline": "2025-10-26",
+            "links": {
+                "": "/exercises/ex05_dict_unit_tests.html"
+            }
+        }
+    ],
+    "2025-10-21": []
 }
