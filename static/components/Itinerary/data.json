@@ -619,7 +619,7 @@
             "date": "2025-10-31",
             "deadline": "2025-10-31",
             "links": {
-                "Practice will be available by Oct 25": "/static/practice/qz02_practice/QZ02_general_practice.html",
+                "General Practice": "/static/practice/qz03_practice/QZ03_general_practice.html",
                 "Hybrid Review Session on Thursday, Oct 30 (time and location TBA)": "/"
             }
         }
