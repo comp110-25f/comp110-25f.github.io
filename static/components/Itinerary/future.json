@@ -1,18 +1,16 @@
 {
-    "2025-10-22": [
+    "2025-10-24": [
         {
             "kind": "CL",
-            "n": 22,
-            "title": "Practice with Unit Tests",
-            "date": "2025-10-22",
-            "deadline": "2025-10-22",
+            "n": 23,
+            "title": "Introduction to Classes and Objects",
+            "date": "2025-10-24",
+            "deadline": "2025-10-24",
             "links": {
-                "Slides": "/static/slides/CL22_unit_test_practice.pdf"
+                "Slides": "/static/slides/CL23_ Intro to OOP for site.pdf"
             }
         }
     ],
-    "2025-10-23": [],
-    "2025-10-24": [],
     "2025-10-25": [],
     "2025-10-26": [],
     "2025-10-27": [],
@@ -26,7 +24,10 @@
             "title": "Quiz 3",
             "date": "2025-10-31",
             "deadline": "2025-10-31",
-            "links": {}
+            "links": {
+                "Practice will be available by Oct 25": "/static/practice/qz02_practice/QZ02_general_practice.html",
+                "Hybrid Review Session on Thursday, Oct 30 (time and location TBA)": "/"
+            }
         }
     ],
     "2025-11-01": [],

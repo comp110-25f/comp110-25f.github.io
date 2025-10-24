@@ -467,7 +467,8 @@
             "date": "2025-10-03",
             "deadline": "2025-10-03",
             "links": {
-                "Slides": "/static/slides/CL16_ range and Dictionary Practice.pdf"
+                "Slides": "/static/slides/CL16_ range and Dictionary Practice.pdf",
+                "Annotated Slides": "/static/slides/CL16_annotated.pdf"
             }
         }
     ],
@@ -578,5 +579,18 @@
             }
         }
     ],
-    "2025-10-21": []
+    "2025-10-21": [],
+    "2025-10-22": [
+        {
+            "kind": "CL",
+            "n": 22,
+            "title": "Practice with Unit Tests",
+            "date": "2025-10-22",
+            "deadline": "2025-10-22",
+            "links": {
+                "Slides": "/static/slides/CL22_unit_test_practice.pdf"
+            }
+        }
+    ],
+    "2025-10-23": []
 }
