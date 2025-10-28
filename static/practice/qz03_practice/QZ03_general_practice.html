@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1761621601.3002863">
+  <link rel="stylesheet" href="/static/styles.css?v=1761627016.2632103">
 </head>
 
 
@@ -96,6 +96,13 @@
                             <ul class="overview-item"><ul>
 <li><a href="#algorithmic-complexity">Algorithmic Complexity</a></li>
 <li><a href="#unit-tests">Unit Tests</a></li>
+<li><a href="#object-oriented-programming">Object-Oriented Programming</a>
+<ul>
+<li><a href="#multiple-choice">Multiple Choice</a></li>
+<li><a href="#select-all-that-apply">Select All That Apply</a></li>
+<li><a href="#short-answer">Short Answer</a></li>
+<li><a href="#memory-diagrams">Memory Diagrams</a></li>
+</ul></li>
 </ul>
 </</ul>
                         </div>
@@ -251,6 +258,209 @@
 <span id="cb8-4"><a href="#cb8-4" aria-hidden="true"></a>        divide_list(classes, <span class="dv">0</span>)</span></code></pre></div></li>
 </ol>
 </details>
+<h1 id="object-oriented-programming">Object-Oriented Programming</h1>
+<h2 id="multiple-choice">Multiple Choice</h2>
+<ol type="1">
+<li><p>True or False: All instances of a class have the same attribute values.</p>
+<ol type="a">
+<li><p>True</p></li>
+<li><p>False</p></li>
+</ol></li>
+<li><p>True or False: An object’s attribute values cannot be accessed from outside the class.</p>
+<ol type="a">
+<li><p>True</p></li>
+<li><p>False</p></li>
+</ol></li>
+<li><p>What is the difference between a class and an object?</p>
+<ol type="a">
+<li><p>A class is a collection of objects</p></li>
+<li><p>A class is a blueprint; an object is a specific instance of that blueprint</p></li>
+<li><p>They are the same in Python</p></li>
+<li><p>An object can contain classes, but not the other way around</p></li>
+</ol></li>
+<li><p>True or False: Because class definitions have attributes, local variables are not allowed inside method definitions.</p>
+<ol type="a">
+<li><p>True</p></li>
+<li><p>False</p></li>
+</ol></li>
+<li><p>What does it mean to “instantiate” a class?</p>
+<ol type="a">
+<li><p>Define the class</p></li>
+<li><p>Import a module</p></li>
+<li><p>Create an object from a class</p></li>
+<li><p>Define attributes</p></li>
+</ol></li>
+<li><p>True or False: The constructor of a class is only called once in a program, no matter how many objects of that class are constructed.</p>
+<ol type="a">
+<li><p>True</p></li>
+<li><p>False</p></li>
+</ol></li>
+<li><p>The first parameter of any method is _____ and it is given a reference to the object the method was called on.</p>
+<ol type="a">
+<li><p>me</p></li>
+<li><p>self</p></li>
+<li><p>init</p></li>
+<li><p>this</p></li>
+<li><p>current</p></li>
+</ol></li>
+<li><p>An instance of a class is stored in the:</p>
+<ol type="a">
+<li><p>stack</p></li>
+<li><p>heap</p></li>
+<li><p>output</p></li>
+</ol></li>
+<li><p>True or False: Once attributes are initialized in the initializer/constructor, the values cannot be changed.</p>
+<ol type="a">
+<li><p>True</p></li>
+<li><p>False</p></li>
+</ol></li>
+<li><p>True or False: A class definition introduces a new data type, or type of object, in your program.</p>
+<ol type="a">
+<li><p>True</p></li>
+<li><p>False</p></li>
+</ol></li>
+</ol>
+<details>
+<p><summary>SOLUTIONS</summary></p>
+<ol type="1">
+<li><p>False</p></li>
+<li><p>False</p></li>
+<li><p>A class is a blueprint; an object is a specific instance of that blueprint</p></li>
+<li><p>False</p></li>
+<li><p>Create an object from a class</p></li>
+<li><p>False</p></li>
+<li><p>self</p></li>
+<li><p>heap</p></li>
+<li><p>False</p></li>
+<li><p>True</p></li>
+</ol>
+</details>
+<h2 id="select-all-that-apply">Select All That Apply</h2>
+<p>Consider the following code listing. Select all lines on which any of the concepts below are found. Select  if the concept is not in the code listing.</p>
+<pre><code>```py</code></pre>
+<p>1 class Point: 2 x: float 3 y: float 4 5 def <strong>init</strong>(self, x: float, y: float): 6 self.x = x 7 self.y = y 8 9 def flip(self) -&gt; None: 10 temp: float = self.x 11 self.x = self.y 12 self.y = temp 13 14 def shift_y(self, dy: float) -&gt; None: 15 self.y += dy 16 17 def diff(self) -&gt; float: 18 return self.x - self.y ```</p>
+<ol type="1">
+<li><p>Constructor Declaration</p>
+<ol type="a">
+<li><p>1</p></li>
+<li><p>2</p></li>
+<li><p>5</p></li>
+<li><p>9</p></li>
+<li><p>11</p></li>
+</ol></li>
+<li><p>Attribute Declaration</p>
+<ol type="a">
+<li><p>2</p></li>
+<li><p>3</p></li>
+<li><p>6</p></li>
+<li><p>7</p></li>
+<li><p>10</p></li>
+</ol></li>
+<li><p>Attribute Initialization</p>
+<ol type="a">
+<li><p>2</p></li>
+<li><p>3</p></li>
+<li><p>6</p></li>
+<li><p>7</p></li>
+<li><p>10</p></li>
+</ol></li>
+<li><p>Method Declaration</p>
+<ol type="a">
+<li><p>1</p></li>
+<li><p>9</p></li>
+<li><p>10</p></li>
+<li><p>14</p></li>
+<li><p>17</p></li>
+</ol></li>
+<li><p>Local Variable Declaration</p>
+<ol type="a">
+<li><p>2</p></li>
+<li><p>3</p></li>
+<li><p>6</p></li>
+<li><p>7</p></li>
+<li><p>10</p></li>
+</ol></li>
+<li><p>Instantiation</p>
+<ol type="a">
+<li><p>1</p></li>
+<li><p>5</p></li>
+<li><p>9</p></li>
+<li><p>10</p></li>
+<li><p>N/A</p></li>
+</ol></li>
+</ol>
+<details>
+<p><summary>SOLUTIONS</summary></p>
+<ol type="1">
+<li><p>Line 5 only</p></li>
+<li><p>Lines 2 and 3</p></li>
+<li><p>Lines 6 and 7</p></li>
+<li><p>Lines 9, 14, and 17</p></li>
+<li><p>Line 10</p></li>
+<li><p>N/A</p></li>
+</ol>
+</details>
+<h2 id="short-answer">Short Answer</h2>
+<p>Use the following point class to answer the questions.</p>
+<pre><code>```py</code></pre>
+<p>1 class Point: 2 x: float 3 y: float 4 5 def <strong>init</strong>(self, x: float, y: float): 6 self.x = x 7 self.y = y 8 9 def flip(self) -&gt; None: 10 temp: float = self.x 11 self.x = self.y 12 self.y = temp 13 14 def shift_y(self, dy: float) -&gt; None: 15 self.y += dy 16 17 def diff(self) -&gt; float: 18 return self.x - self.y ```</p>
+<ol type="1">
+<li><p>Write a line of code to create an explicitly typed instance of the Point class called my_point with an x of 3.7 and y of 2.3.</p></li>
+<li><p>Write a line of code to change the value of the my_point variable’s x attribute to 2.0.</p></li>
+<li><p>Write a line of code to cause the my_point variable’s y attribute to increase by 1.0 using a method call.</p></li>
+<li><p>Write a line of code to declare an explicitly typed variable named x. Initialize x to the result of calling the diff method on my_point.</p></li>
+</ol>
+<details>
+<p><summary>SOLUTIONS</summary></p>
+<ol type="1">
+<li><p><code>my_point: Point = Point(x=3.7, y=2.3)</code></p></li>
+<li><p><code>my_point.x = 2.0</code></p></li>
+<li><p><code>my_point.shift_y(1.0)</code></p></li>
+<li><p><code>x: float = my_point.diff()</code></p></li>
+</ol>
+</details>
+<h2 id="memory-diagrams">Memory Diagrams</h2>
+<ol type="1">
+<li>Complete a memory diagram for the following code listing.</li>
+</ol>
+<div class="sourceCode" id="cb11"><pre class="sourceCode py"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true"></a><span class="dv">1</span> <span class="kw">class</span> Dog:</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true"></a><span class="dv">2</span>     name: <span class="bu">str</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true"></a><span class="dv">3</span>     age: <span class="bu">int</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true"></a><span class="dv">4</span>     </span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true"></a><span class="dv">5</span>     <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, n: <span class="bu">str</span>, a:<span class="bu">int</span>):</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true"></a><span class="dv">6</span>         <span class="va">self</span>.name <span class="op">=</span> n</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true"></a><span class="dv">7</span>         <span class="va">self</span>.age <span class="op">=</span> a</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true"></a><span class="dv">8</span>         </span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true"></a><span class="dv">9</span>     <span class="kw">def</span> speak(<span class="va">self</span>) <span class="op">-&gt;</span> <span class="va">None</span>: </span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true"></a><span class="dv">10</span>        <span class="bu">print</span>(<span class="va">self</span>.name <span class="op">+</span> <span class="st">&quot; says woof!&quot;</span>)</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true"></a><span class="dv">11</span>        </span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true"></a><span class="dv">12</span>    <span class="kw">def</span> birthday(<span class="va">self</span>) <span class="op">-&gt;</span> <span class="bu">int</span>:</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true"></a><span class="dv">13</span>        <span class="va">self</span>.age <span class="op">+=</span> <span class="dv">1</span> </span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true"></a><span class="dv">14</span>        <span class="cf">return</span> <span class="va">self</span>.age</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true"></a><span class="dv">15</span>        </span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true"></a><span class="dv">16</span> <span class="kw">class</span> Cat:</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true"></a><span class="dv">17</span>    name: <span class="bu">str</span></span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true"></a><span class="dv">18</span>    age: <span class="bu">int</span></span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true"></a><span class="dv">19</span>    </span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true"></a><span class="dv">20</span>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, n: <span class="bu">str</span>, a:<span class="bu">int</span>):</span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true"></a><span class="dv">21</span>        <span class="va">self</span>.name <span class="op">=</span> n</span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true"></a><span class="dv">22</span>        <span class="va">self</span>.age <span class="op">=</span> a</span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true"></a><span class="dv">23</span>        </span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true"></a><span class="dv">24</span>    <span class="kw">def</span> speak(<span class="va">self</span>) <span class="op">-&gt;</span> <span class="va">None</span>: </span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true"></a><span class="dv">25</span>        <span class="bu">print</span>(<span class="va">self</span>.name <span class="op">+</span> <span class="st">&quot; says meow!&quot;</span>)</span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true"></a><span class="dv">26</span>        </span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true"></a><span class="dv">27</span>    <span class="kw">def</span> birthday(<span class="va">self</span>) <span class="op">-&gt;</span> <span class="bu">int</span>:</span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true"></a><span class="dv">28</span>        <span class="va">self</span>.age <span class="op">+=</span> <span class="dv">1</span> </span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true"></a><span class="dv">29</span>        <span class="cf">return</span> <span class="va">self</span>.age</span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true"></a><span class="dv">30</span>    </span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true"></a><span class="dv">31</span> rory: Dog <span class="op">=</span> Dog(n <span class="op">=</span> <span class="st">&quot;Rory&quot;</span>, a <span class="op">=</span> <span class="dv">4</span>)</span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true"></a><span class="dv">32</span> <span class="bu">print</span>(rory.birthday())</span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true"></a><span class="dv">33</span> miso: Cat <span class="op">=</span> Cat(<span class="st">&quot;Miso&quot;</span>, <span class="dv">2</span>)</span>
+<span id="cb11-34"><a href="#cb11-34" aria-hidden="true"></a><span class="dv">34</span> miso.speak()</span></code></pre></div>
+<details>
+<p><summary>SOLUTIONS</summary></p>
+<p><img class="img-fluid" src="/static/practice/qz03_practice/dog_cat.png" alt="Memory diagram of code listing with Dog and Cat classes."  /></p>
+</details>
 </div>
 
        
@@ -259,7 +469,7 @@
     </div>
     </div>
     <div class="authors-box bg-dark mt-4 py-3 ps-4">
-      <span> Contributor(s):        Alyssa Lytle, Benjamin Eldridge</span>
+      <span> Contributor(s):        Alyssa Lytle,        Benjamin Eldridge, Izzi Hinks</span>
     </div>
 
   </div>

@@ -1,27 +1,4 @@
 {
-    "2025-10-27": [
-        {
-            "kind": "CL",
-            "n": 24,
-            "title": "OOP Part 2: Classes and Methods",
-            "date": "2025-10-27",
-            "deadline": "2025-10-27",
-            "links": {
-                "Blank Slides": "/static/slides/CL24_OOP_pt2.pdf",
-                "Annotated Slides": "/static/slides/CL24_OOP_pt2_annotated.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 12,
-            "title": "Intro to Object-Oriented Programming",
-            "date": "2025-10-27",
-            "deadline": "2025-10-27",
-            "links": {
-                "Complete Lesson 12 Responses on Gradescope": "https://www.gradescope.com/"
-            }
-        }
-    ],
     "2025-10-28": [],
     "2025-10-29": [],
     "2025-10-30": [],
@@ -33,7 +10,7 @@
             "date": "2025-10-31",
             "deadline": "2025-10-31",
             "links": {
-                "General Practice": "/static/practice/qz03_practice/QZ03_general_practice.html",
+                "Practice Questions": "/static/practice/qz03_practice/QZ03_general_practice.html",
                 "Hybrid Review Session on Thursday, Oct 30 (time and location TBA)": "/"
             }
         }
