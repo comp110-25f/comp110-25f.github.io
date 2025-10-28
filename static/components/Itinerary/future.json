@@ -7,7 +7,8 @@
             "date": "2025-10-27",
             "deadline": "2025-10-27",
             "links": {
-                "Slides": "/static/slides/CL24_OOP_pt2.pdf"
+                "Blank Slides": "/static/slides/CL24_OOP_pt2.pdf",
+                "Annotated Slides": "/static/slides/CL24_OOP_pt2_annotated.pdf"
             }
         },
         {
