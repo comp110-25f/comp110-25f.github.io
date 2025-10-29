@@ -496,7 +496,8 @@
             "date": "2025-10-08",
             "deadline": "2025-10-08",
             "links": {
-                "Slides": "/static/slides/CL18_slides.pdf"
+                "Slides": "/static/slides/CL18_slides.pdf",
+                "Lecture Recording": "https://youtu.be/8iJmL1ulpOU"
             }
         }
     ],
@@ -673,7 +674,7 @@
             "deadline": "2025-10-31",
             "links": {
                 "Practice Questions": "/static/practice/qz03_practice/QZ03_general_practice.html",
-                "Hybrid Review Session on Thursday, Oct 30 (time and location TBA)": "/"
+                "Hybrid Review Session on Thursday, Oct 30 at 5:30pm (location TBA)": "/"
             }
         }
     ],
