@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1761770866.6620924">
+  <link rel="stylesheet" href="/static/styles.css?v=1761788737.6569562">
 </head>
 
 
@@ -168,18 +168,18 @@
 <div class="sourceCode" id="cb2"><pre class="sourceCode py"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a>unc_pid_range: <span class="bu">dict</span>[<span class="bu">int</span>, <span class="bu">bool</span>] <span class="op">=</span> {<span class="dv">730000000</span>: <span class="va">False</span>, <span class="dv">730000001</span>: <span class="va">False</span>, ..., <span class="dv">730999999</span>: <span class="va">False</span>}</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>prime_numbers: <span class="bu">list</span>[<span class="bu">int</span>] <span class="op">=</span> [<span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">7</span>, ..., <span class="dv">1000000007</span>]</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a><span class="cf">for</span> pid <span class="kw">in</span> unc_pids:</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a><span class="cf">for</span> pid <span class="kw">in</span> unc_pid_range:</span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a>    <span class="cf">if</span> pid <span class="kw">in</span> prime_numbers:</span>
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true"></a>        unc_pid_range[pid] <span class="op">=</span> <span class="va">True</span></span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Prime PID found: </span><span class="sc">{</span>pid<span class="sc">}</span><span class="ss">!&quot;</span>)</span></code></pre></div>
 <div class="sourceCode" id="cb3"><pre class="sourceCode py"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a>unc_pid_range: <span class="bu">list</span>[<span class="bu">int</span>] <span class="op">=</span> [<span class="dv">730000000</span>, <span class="dv">730000001</span>, ..., <span class="dv">730999999</span>]</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a>prime_numbers: <span class="bu">dict</span>[<span class="bu">int</span>, <span class="bu">bool</span>] <span class="op">=</span> {<span class="dv">2</span>: <span class="va">False</span>, <span class="dv">3</span>: <span class="va">False</span>, <span class="dv">5</span>: <span class="va">False</span>, <span class="dv">7</span>: <span class="va">False</span>, ..., <span class="dv">1000000007</span>: <span class="va">False</span>}</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true"></a></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true"></a><span class="cf">for</span> pid <span class="kw">in</span> unc_pids:</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true"></a><span class="cf">for</span> pid <span class="kw">in</span> unc_pid_range:</span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true"></a>    <span class="cf">if</span> pid <span class="kw">in</span> prime_numbers:</span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true"></a>        prime_numbers[pid] <span class="op">=</span> <span class="va">True</span></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Prime PID found: </span><span class="sc">{</span>pid<span class="sc">}</span><span class="ss">!&quot;</span>)</span></code></pre></div>
-<p>Let <span class="math inline"><em>n</em></span> be the size of the <code>unc_pid_range</code> lists and let <span class="math inline"><em>m</em></span> be the size of both the <code>prime_numbers</code> list and dictionary. What are the runtimes of the two code snippets in big-O notation? Which would you choose to use if you cared the most about speed?</p></li>
+<p>Let <span class="math inline"><em>n</em></span> be the size of the <code>unc_pid_range</code> and let <span class="math inline"><em>m</em></span> be the size of both the <code>prime_numbers</code> in both code snippets. What are the runtimes of the two code snippets in big-O notation in terms of <span class="math inline"><em>m</em></span> and <span class="math inline"><em>n</em></span>? Which would you choose to use if you cared the most about speed?</p></li>
 </ol>
 <details>
 <p><summary>SOLUTIONS</summary></p>
