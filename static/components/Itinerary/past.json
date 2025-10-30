@@ -631,5 +631,37 @@
             }
         }
     ],
-    "2025-10-28": []
+    "2025-10-28": [],
+    "2025-10-29": [
+        {
+            "kind": "CL",
+            "n": 25,
+            "title": "OOP Practice",
+            "date": "2025-10-29",
+            "deadline": "2025-10-29",
+            "links": {
+                "Slides": "/static/slides/CL25_ OOP Practice.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "Code Written in Class",
+            "date": "2025-10-29",
+            "deadline": "2025-10-29",
+            "links": {
+                "": "https://www.gradescope.com"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 6,
+            "title": "River Simulation (Due Thursday 11/6)",
+            "date": "2025-10-29",
+            "deadline": "2025-11-06",
+            "links": {
+                "": "/exercises/ex06_river_sim.html"
+            }
+        }
+    ]
 }
