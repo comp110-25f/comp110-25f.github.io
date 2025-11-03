@@ -676,16 +676,6 @@
                 "Practice Questions": "/static/practice/qz03_practice/QZ03_general_practice.html",
                 "Review Session Recording": "https://youtu.be/2EsOyyLw0iM"
             }
-        },
-        {
-            "kind": "CL",
-            "n": 26,
-            "title": "Intro to Magic Methods",
-            "date": "2025-10-31",
-            "deadline": "2025-10-31",
-            "links": {
-                "Slides": "/static/slides/CL26_ Intro to Magic Methods.pdf"
-            }
         }
     ],
     "2025-11-01": [],
