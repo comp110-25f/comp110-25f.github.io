@@ -679,5 +679,18 @@
         }
     ],
     "2025-11-01": [],
-    "2025-11-02": []
+    "2025-11-02": [],
+    "2025-11-03": [
+        {
+            "kind": "CL",
+            "n": 26,
+            "title": "Intro to Magic Methods",
+            "date": "2025-11-03",
+            "deadline": "2025-11-03",
+            "links": {
+                "Slides": "/static/slides/CL26_ Intro to Magic Methods.pdf"
+            }
+        }
+    ],
+    "2025-11-04": []
 }
