@@ -714,7 +714,7 @@
             "date": "2025-11-07",
             "deadline": "2025-11-07",
             "links": {
-                "Slides": "site/static/slides/CL28_recursivestructures.pdf"
+                "Slides": "/static/slides/CL28_recursivestructures.pdf"
             }
         },
         {
