@@ -7,15 +7,15 @@
             "date": "2025-11-07",
             "deadline": "2025-11-07",
             "links": {
-                "Slides": "/static/slides/CL28_ Recursive Structures and Processes.pdf"
+                "Slides": "site/static/slides/CL28_recursivestructures.pdf"
             }
         },
         {
             "kind": "LS",
             "n": 13,
-            "title": "Recursive Structures",
+            "title": "Recursive Structures (Due Monday 11/10)",
             "date": "2025-11-07",
-            "deadline": "2025-11-07",
+            "deadline": "2025-11-10",
             "links": {
                 "Complete Lesson 13 Responses on Gradescope": "https://www.gradescope.com/"
             }
