@@ -706,7 +706,28 @@
         }
     ],
     "2025-11-06": [],
-    "2025-11-07": [],
+    "2025-11-07": [
+        {
+            "kind": "CL",
+            "n": 28,
+            "title": "Recursive Structures and Processes",
+            "date": "2025-11-07",
+            "deadline": "2025-11-07",
+            "links": {
+                "Slides": "/static/slides/CL28_ Recursive Structures and Processes.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 13,
+            "title": "Recursive Structures",
+            "date": "2025-11-07",
+            "deadline": "2025-11-07",
+            "links": {
+                "Complete Lesson 13 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-11-08": [],
     "2025-11-09": [],
     "2025-11-10": [],
