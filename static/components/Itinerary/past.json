@@ -705,5 +705,19 @@
             }
         }
     ],
-    "2025-11-06": []
+    "2025-11-06": [],
+    "2025-11-07": [
+        {
+            "kind": "CL",
+            "n": 28,
+            "title": "Recursive Structures and Processes",
+            "date": "2025-11-07",
+            "deadline": "2025-11-07",
+            "links": {
+                "Slides": "/static/slides/CL28_recursivestructures.pdf"
+            }
+        }
+    ],
+    "2025-11-08": [],
+    "2025-11-09": []
 }
