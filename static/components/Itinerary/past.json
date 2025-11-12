@@ -714,10 +714,35 @@
             "date": "2025-11-07",
             "deadline": "2025-11-07",
             "links": {
-                "Slides": "/static/slides/CL28_recursivestructures.pdf"
+                "Slides": "/static/slides/CL28_recursivestructures.pdf",
+                "Supplemental Video": "https://youtu.be/M2jQ2PJk2NE?si=wH6omKd6UidB9BX_"
             }
         }
     ],
     "2025-11-08": [],
-    "2025-11-09": []
+    "2025-11-09": [],
+    "2025-11-10": [
+        {
+            "kind": "CL",
+            "n": 29,
+            "title": "Practice with Recursive Structures and Processes",
+            "date": "2025-11-10",
+            "deadline": "2025-11-10",
+            "links": {
+                "Blank Slides": "/static/slides/CL29.pdf",
+                "Annotated Slides": "/static/slides/CL29_annotated.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 13,
+            "title": "Recursive Structures",
+            "date": "2025-11-10",
+            "deadline": "2025-11-10",
+            "links": {
+                "Complete Lesson 13 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2025-11-11": []
 }
