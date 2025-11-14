@@ -768,7 +768,18 @@
         }
     ],
     "2025-11-13": [],
-    "2025-11-14": [],
+    "2025-11-14": [
+        {
+            "kind": "CL",
+            "n": 31,
+            "title": "Building Linked Lists with Recursive Algorithms",
+            "date": "2025-11-14",
+            "deadline": "2025-11-14",
+            "links": {
+                "Slides": "/static/slides/CL31.pdf"
+            }
+        }
+    ],
     "2025-11-15": [],
     "2025-11-16": [],
     "2025-11-17": [],

@@ -744,5 +744,28 @@
             }
         }
     ],
-    "2025-11-11": []
+    "2025-11-11": [],
+    "2025-11-12": [
+        {
+            "kind": "CL",
+            "n": 30,
+            "title": "Magic Method and Building Linked Lists with Recursive Algorithms",
+            "date": "2025-11-12",
+            "deadline": "2025-11-12",
+            "links": {
+                "Slides": "/static/slides/CL30.pdf"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 7,
+            "title": "Linked List Utility Functions (Due Tuesday 11/25)",
+            "date": "2025-11-12",
+            "deadline": "2025-11-25",
+            "links": {
+                "": "/exercises/linked_list_utils.html"
+            }
+        }
+    ],
+    "2025-11-13": []
 }
