@@ -673,8 +673,7 @@
             "date": "2025-10-31",
             "deadline": "2025-10-31",
             "links": {
-                "Practice Questions": "/static/practice/qz03_practice/QZ03_general_practice.html",
-                "Review Session Recording": "https://youtu.be/2EsOyyLw0iM"
+                "Practice Questions": "/static/practice/qz04_practice/QZ04_general_practice.html"
             }
         }
     ],
@@ -767,5 +766,17 @@
             }
         }
     ],
-    "2025-11-13": []
+    "2025-11-13": [],
+    "2025-11-14": [
+        {
+            "kind": "CL",
+            "n": 31,
+            "title": "Building Linked Lists with Recursive Algorithms",
+            "date": "2025-11-14",
+            "deadline": "2025-11-14",
+            "links": {
+                "Slides": "/static/slides/CL31.pdf"
+            }
+        }
+    ]
 }
