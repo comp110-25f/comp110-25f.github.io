@@ -673,7 +673,8 @@
             "date": "2025-10-31",
             "deadline": "2025-10-31",
             "links": {
-                "Practice Questions": "/static/practice/qz04_practice/QZ04_general_practice.html"
+                "Practice Questions": "/static/practice/qz03_practice/QZ03_general_practice.html",
+                "Review Session Recording": "https://youtu.be/2EsOyyLw0iM"
             }
         }
     ],

@@ -12,7 +12,9 @@
             "title": "Quiz 4",
             "date": "2025-11-21",
             "deadline": "2025-11-21",
-            "links": {}
+            "links": {
+                "Practice Questions": "/static/practice/qz04_practice/QZ04_general_practice.html"
+            }
         }
     ],
     "2025-11-22": [],
