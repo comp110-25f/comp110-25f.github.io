@@ -1,18 +1,16 @@
 {
-    "2025-11-17": [
+    "2025-11-19": [
         {
             "kind": "CL",
-            "n": 32,
-            "title": "Linked List Algorithm Practice",
-            "date": "2025-11-17",
-            "deadline": "2025-11-17",
+            "n": 33,
+            "title": "Quiz Review",
+            "date": "2025-11-19",
+            "deadline": "2025-11-19",
             "links": {
-                "Slides": "/static/slides/CL32.pdf"
+                "(no slides)": "/"
             }
         }
     ],
-    "2025-11-18": [],
-    "2025-11-19": [],
     "2025-11-20": [],
     "2025-11-21": [
         {
