@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1763561270.9975383">
+  <link rel="stylesheet" href="/static/styles.css?v=1763607356.598904">
 </head>
 
 
@@ -286,7 +286,7 @@ Perimeter: 4</code></pre>
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true"></a><span class="dv">5</span>         <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, name: <span class="bu">str</span>):</span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true"></a><span class="dv">6</span>             <span class="va">self</span>.name <span class="op">=</span> name</span>
 <span id="cb6-7"><a href="#cb6-7" aria-hidden="true"></a><span class="dv">7</span></span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true"></a><span class="dv">8</span>         <span class="kw">def</span> <span class="fu">__str__</span>(<span class="va">self</span>):</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true"></a><span class="dv">8</span>         <span class="kw">def</span> <span class="fu">__str__</span>(<span class="va">self</span>) <span class="op">-&gt;</span> <span class="bu">str</span>:</span>
 <span id="cb6-9"><a href="#cb6-9" aria-hidden="true"></a><span class="dv">9</span>             <span class="cf">return</span> <span class="ss">f&quot;Sir </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>name<span class="sc">}</span><span class="ss">&quot;</span></span>
 <span id="cb6-10"><a href="#cb6-10" aria-hidden="true"></a><span class="dv">10</span></span>
 <span id="cb6-11"><a href="#cb6-11" aria-hidden="true"></a><span class="dv">11</span>    <span class="kw">class</span> Castle:</span>
@@ -298,7 +298,7 @@ Perimeter: 4</code></pre>
 <span id="cb6-17"><a href="#cb6-17" aria-hidden="true"></a><span class="dv">17</span>            <span class="va">self</span>.guard <span class="op">=</span> guard</span>
 <span id="cb6-18"><a href="#cb6-18" aria-hidden="true"></a><span class="dv">18</span>            <span class="va">self</span>.drawbridge_up <span class="op">=</span> bridge_up</span>
 <span id="cb6-19"><a href="#cb6-19" aria-hidden="true"></a><span class="dv">19</span></span>
-<span id="cb6-20"><a href="#cb6-20" aria-hidden="true"></a><span class="dv">20</span>        <span class="kw">def</span> <span class="fu">__str__</span>(<span class="va">self</span>) <span class="op">-&gt;</span> <span class="bu">int</span>:</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true"></a><span class="dv">20</span>        <span class="kw">def</span> <span class="fu">__str__</span>(<span class="va">self</span>) <span class="op">-&gt;</span> <span class="bu">str</span>:</span>
 <span id="cb6-21"><a href="#cb6-21" aria-hidden="true"></a><span class="dv">21</span>            <span class="cf">if</span> <span class="va">self</span>.drawbridge_up:</span>
 <span id="cb6-22"><a href="#cb6-22" aria-hidden="true"></a><span class="dv">22</span>                <span class="cf">return</span> <span class="ss">f&quot;Guarded by </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>guard<span class="sc">}</span><span class="ss"> and closed to outsiders!&quot;</span></span>
 <span id="cb6-23"><a href="#cb6-23" aria-hidden="true"></a><span class="dv">23</span>            <span class="cf">else</span>:</span>
