@@ -806,5 +806,21 @@
                 "(no slides)": "/"
             }
         }
-    ]
+    ],
+    "2025-11-20": [],
+    "2025-11-21": [
+        {
+            "kind": "QZ",
+            "n": 4,
+            "title": "Quiz 4",
+            "date": "2025-11-21",
+            "deadline": "2025-11-21",
+            "links": {
+                "Practice Questions": "/static/practice/qz04_practice/QZ04_general_practice.html",
+                "Review Session Recording": "https://youtu.be/Y2LtI9hQhmw"
+            }
+        }
+    ],
+    "2025-11-22": [],
+    "2025-11-23": []
 }
