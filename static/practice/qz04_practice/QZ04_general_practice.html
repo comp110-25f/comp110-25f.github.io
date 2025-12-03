@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1764604989.3718643">
+  <link rel="stylesheet" href="/static/styles.css?v=1764768398.9099019">
 </head>
 
 
@@ -94,6 +94,7 @@
                     <div id="overview-links">
                         <div id="TOC" role="doc-toc">
                             <ul class="overview-item"><ul>
+<li><a href="#change-log">Change Log</a></li>
 <li><a href="#magic-methods">Magic Methods</a>
 <ul>
 <li><a href="#oop-review">OOP Review</a></li>
@@ -115,7 +116,9 @@
                 </div>
             </div>
         </div>
-        <div id="content" class="content box col-xl-9 col-lg-9 order-2 order-lg-1 pt-3"><h1 id="magic-methods">Magic Methods</h1>
+        <div id="content" class="content box col-xl-9 col-lg-9 order-2 order-lg-1 pt-3"><h2 id="change-log">Change Log</h2>
+<p>Dec 2: <code>Point</code> class changed to have <code>int</code> attributes from <code>float</code> attributes. <code>float</code> attributes were used in class but the definition has been changed for these problems to be consistent with how the <code>Rectangle</code> class uses them. Additionally, the answer for the <code>Knight</code> and <code>Castle</code> memory diagram has been updated to correct the labels of some method call frames (<code>Guard</code> was accidentally used as the class name at the top of a few of the function call frames instead of <code>Knight</code>).</p>
+<h1 id="magic-methods">Magic Methods</h1>
 <h2 id="oop-review">OOP Review</h2>
 <ol type="1">
 <li><p>What does <code>self</code> refer to in Python classes?</p></li>
@@ -136,10 +139,10 @@
 <ol type="1">
 <li><p>Consider the following code snippet:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode py"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="dv">1</span>     <span class="kw">class</span> Point:</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="dv">2</span>         x: <span class="bu">float</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a><span class="dv">3</span>         y: <span class="bu">float</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="dv">2</span>         x: <span class="bu">int</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a><span class="dv">3</span>         y: <span class="bu">int</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a><span class="dv">4</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a><span class="dv">5</span>         <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, x: <span class="bu">float</span>, y: <span class="bu">float</span>):</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a><span class="dv">5</span>         <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, x: <span class="bu">int</span>, y: <span class="bu">int</span>):</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a><span class="dv">6</span>             <span class="va">self</span>.x <span class="op">=</span> x</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a><span class="dv">7</span>             <span class="va">self</span>.y <span class="op">=</span> y</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a><span class="dv">8</span></span>
@@ -205,10 +208,10 @@ Perimeter: 4</code></pre>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true"></a><span class="co"># Included for context, and so you can run it yourself!</span></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true"></a><span class="kw">class</span> Point:</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true"></a>    x: <span class="bu">float</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true"></a>    y: <span class="bu">float</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true"></a>    x: <span class="bu">int</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true"></a>    y: <span class="bu">int</span></span>
 <span id="cb4-7"><a href="#cb4-7" aria-hidden="true"></a></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, x: <span class="bu">float</span>, y: <span class="bu">float</span>):</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, x: <span class="bu">int</span>, y: <span class="bu">int</span>):</span>
 <span id="cb4-9"><a href="#cb4-9" aria-hidden="true"></a>        <span class="va">self</span>.x <span class="op">=</span> x</span>
 <span id="cb4-10"><a href="#cb4-10" aria-hidden="true"></a>        <span class="va">self</span>.y <span class="op">=</span> y</span>
 <span id="cb4-11"><a href="#cb4-11" aria-hidden="true"></a></span>
