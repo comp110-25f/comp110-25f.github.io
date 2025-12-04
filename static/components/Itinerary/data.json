@@ -873,7 +873,22 @@
             "title": "Final @ 4:00PM",
             "date": "2025-12-06",
             "deadline": "None",
-            "links": {}
+            "links": {
+                "Final Exam Supplemental Practice Questions": "/static/practice/fn00_practice/supplemental_fn_practice.md",
+                "Final Exam Review Session on Thurs, Dec 4 at 4pm in SN 014 and online": "/",
+                "Quiz 00 Practice": "/static/practice/qz00_practice/qz00_questions.html",
+                "Quiz 00 Review Session Recording": "https://youtu.be/qM2gsvByNSA",
+                "Quiz 01 Practice": "/static/practice/qz01_practice/qz01_practice.html",
+                "Quiz 01 Review Session Recording": "https://youtu.be/3N6FCX3DwKM",
+                "Quiz 02 General Practice": "/static/practice/qz02_practice/QZ02_general_practice.html",
+                "Quiz 02 Memory Diagram Practice": "/static/practice/qz02_practice/QZ02_memory_diagram_practice.html",
+                "Quiz 02 Function Writing Practice": "/static/practice/qz02_practice/QZ02_function_practice.html",
+                "Quiz 02 Review Session Recording": "https://youtu.be/lk-4q3_HbUw",
+                "Quiz 03 Practice Questions": "/static/practice/qz03_practice/QZ03_general_practice.html",
+                "Quiz 03 Review Session Recording": "https://youtu.be/2EsOyyLw0iM",
+                "Quiz 04 Practice Questions": "/static/practice/qz04_practice/QZ04_general_practice.html",
+                "Quiz 04 Review Session Recording": "https://youtu.be/Y2LtI9hQhmw"
+            }
         }
     ]
 }
