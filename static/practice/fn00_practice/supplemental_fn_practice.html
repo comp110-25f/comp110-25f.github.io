@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1764879281.5046034">
+  <link rel="stylesheet" href="/static/styles.css?v=1764918785.372679">
 </head>
 
 
@@ -96,6 +96,11 @@
                             <ul class="overview-item"><ul>
 <li><a href="#multiple-choice-with-code-snippets">Multiple Choice with Code Snippets</a></li>
 <li><a href="#looping-questions">Looping Questions</a></li>
+<li><a href="#recursion-memory-diagram">Recursion Memory Diagram</a></li>
+<li><a href="#oop-class-writing-and-memory-diagram">OOP Class-Writing and Memory Diagram</a>
+<ul>
+<li><a href="#see-one-solution-below">(See <em>one</em> solution below)</a></li>
+</ul></li>
 </ul>
 </</ul>
                         </div>
@@ -272,6 +277,92 @@
 </ol>
 </details>
 <p> </p>
+<h1 id="recursion-memory-diagram">Recursion Memory Diagram</h1>
+<ol type="1">
+<li><p>Complete a memory diagram for the following code:</p>
+<div class="sourceCode" id="cb26"><pre class="sourceCode py"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true"></a><span class="dv">1</span>   <span class="kw">def</span> woo(n: <span class="bu">int</span>) <span class="op">-&gt;</span> <span class="bu">int</span>:</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true"></a><span class="dv">2</span>       <span class="cf">if</span> n <span class="op">==</span> <span class="dv">1</span> <span class="kw">or</span> n <span class="op">==</span> <span class="dv">2</span>:</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true"></a><span class="dv">3</span>           <span class="cf">return</span> <span class="dv">1</span></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true"></a><span class="dv">4</span>       <span class="cf">else</span>:</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true"></a><span class="dv">5</span>           <span class="cf">return</span> n <span class="op">+</span> woo(n <span class="op">-</span> <span class="dv">1</span>) <span class="op">*</span> woo(n <span class="op">-</span> <span class="dv">2</span>)</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true"></a><span class="dv">6</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true"></a><span class="dv">7</span> </span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true"></a><span class="dv">8</span>    <span class="bu">print</span>(woo(<span class="dv">4</span>))</span></code></pre></div></li>
+</ol>
+<!-- # Solution
+
+<img class="img-fluid" src="/static/practice-mem-diagrams/basic-loop.png" alt="recursion example"  />
+ -->
+<h1 id="oop-class-writing-and-memory-diagram">OOP Class-Writing and Memory Diagram</h1>
+<ol type="1">
+<li><p>Consider the following class:</p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode py"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true"></a><span class="kw">class</span> Athlete:</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true"></a>    name: <span class="bu">str</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true"></a>    number: <span class="bu">int</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true"></a></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, name: <span class="bu">str</span>, num: <span class="bu">int</span>):</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true"></a>        <span class="va">self</span>.name <span class="op">=</span> name</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true"></a>        <span class="va">self</span>.number <span class="op">=</span> num</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true"></a></span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true"></a>    <span class="kw">def</span> <span class="fu">__str__</span>(<span class="va">self</span>) <span class="op">-&gt;</span> <span class="bu">str</span>:</span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true"></a>        <span class="cf">return</span> <span class="ss">f&quot;Athlete: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>name<span class="sc">}</span><span class="ss"> (#</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>number<span class="sc">}</span><span class="ss">)&quot;</span></span></code></pre></div>
+<p>Write a class named <code>Team</code> with the following specifications:</p>
+<ul>
+<li>The class has two attributes:
+<ul>
+<li><code>team_name</code> (a <code>str</code>)</li>
+<li><code>roster</code> (a <code>dict</code>, where the keys are <code>int</code>s, and the values are <code>Athlete</code> objects)</li>
+</ul></li>
+<li>The constructor takes in <code>self</code> and <code>name</code> (a <code>str</code>). The <code>self</code> object’s <code>team_name</code> attribute will be initialized to the <code>name</code> parameter’s literal value, and the <code>roster</code> attribute will be initialized to an empty dictionary.</li>
+<li>The class has a method named <code>add</code> that takes in <code>self</code>, <code>name</code> (a <code>str</code>), and <code>desired_num</code> (an <code>int</code>), and returns an <code>Athlete</code> object. The purpose of the method will be to add an <code>Athlete</code> object to a <code>Team</code> object’s <code>roster</code>. If the athlete’s desired number is not already taken, they will be assigned that desired number! If it’s already taken, the athlete will be assigned the number <code>0</code>. To code this behavior, your method should do the following:
+<ul>
+<li>The method will check if <code>desired_num</code> is already a key in the <code>self</code> object’s <code>roster</code> dictionary.
+<ul>
+<li>If it is NOT already a key, declare and initialize a new <code>Athlete</code> variable with the athlete’s <code>name</code> and <code>desired_num</code> as its attribute values. Add that <code>desired_num</code> and new <code>Athlete</code> object as a new key-value pair in <code>self</code>’s <code>roster</code>.</li>
+<li>If it IS already a key (representing someone on the team already having that number), declare and initialize a new <code>Athlete</code> variable with the athlete’s <code>name</code> and <code>0</code> as its attribute values. Add that <code>0</code> and the new <code>Athlete</code> object as a new key-value pair in <code>self</code>’s <code>roster</code>.</li>
+</ul></li>
+<li>The method should return the new <code>Athlete</code> object you created.</li>
+</ul></li>
+</ul></li>
+</ol>
+<h2 id="see-one-solution-below">(See <em>one</em> solution below)</h2>
+<ol start="2" type="1">
+<li><p>Complete a memory diagram for the code listing that includes the Athlete class and the Team class you just wrote:</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode py"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true"></a><span class="dv">1</span>   <span class="kw">class</span> Athlete:</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true"></a><span class="dv">2</span>       name: <span class="bu">str</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true"></a><span class="dv">3</span>       number: <span class="bu">int</span></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true"></a><span class="dv">4</span> </span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true"></a><span class="dv">5</span>       <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, name: <span class="bu">str</span>, num: <span class="bu">int</span>):</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true"></a><span class="dv">6</span>           <span class="va">self</span>.name <span class="op">=</span> name</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true"></a><span class="dv">7</span>           <span class="va">self</span>.number <span class="op">=</span> num</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true"></a><span class="dv">8</span></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true"></a><span class="dv">9</span>       <span class="kw">def</span> <span class="fu">__str__</span>(<span class="va">self</span>) <span class="op">-&gt;</span> <span class="bu">str</span>:</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true"></a><span class="dv">10</span>          <span class="cf">return</span> <span class="ss">f&quot;Athlete: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>name<span class="sc">}</span><span class="ss"> (#</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>number<span class="sc">}</span><span class="ss">)&quot;</span></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true"></a><span class="dv">11</span> </span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true"></a><span class="dv">12</span> </span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true"></a><span class="dv">13</span>   <span class="kw">class</span> Team:</span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true"></a><span class="dv">14</span>      team_name: <span class="bu">str</span></span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true"></a><span class="dv">15</span>      roster: <span class="bu">dict</span>[<span class="bu">int</span>, Athlete]</span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true"></a><span class="dv">16</span> </span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true"></a><span class="dv">17</span>      <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, name: <span class="bu">str</span>):</span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true"></a><span class="dv">18</span>          <span class="va">self</span>.team_name <span class="op">=</span> name</span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true"></a><span class="dv">19</span>          <span class="va">self</span>.roster <span class="op">=</span> <span class="bu">dict</span>()</span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true"></a><span class="dv">20</span></span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true"></a><span class="dv">21</span>      <span class="kw">def</span> add(<span class="va">self</span>, name: <span class="bu">str</span>, desired_num: <span class="bu">int</span>) <span class="op">-&gt;</span> Athlete:</span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true"></a><span class="dv">22</span>          new_athlete: Athlete</span>
+<span id="cb28-23"><a href="#cb28-23" aria-hidden="true"></a><span class="dv">23</span>          <span class="cf">if</span> desired_num <span class="kw">not</span> <span class="kw">in</span> <span class="va">self</span>.roster:</span>
+<span id="cb28-24"><a href="#cb28-24" aria-hidden="true"></a><span class="dv">24</span>              new_athlete <span class="op">=</span> Athlete(name, desired_num)</span>
+<span id="cb28-25"><a href="#cb28-25" aria-hidden="true"></a><span class="dv">25</span>              <span class="va">self</span>.roster[desired_num] <span class="op">=</span> new_athlete</span>
+<span id="cb28-26"><a href="#cb28-26" aria-hidden="true"></a><span class="dv">26</span>          <span class="cf">else</span>:</span>
+<span id="cb28-27"><a href="#cb28-27" aria-hidden="true"></a><span class="dv">27</span>              new_athlete <span class="op">=</span> Athlete(name, <span class="dv">0</span>)</span>
+<span id="cb28-28"><a href="#cb28-28" aria-hidden="true"></a><span class="dv">28</span>              <span class="va">self</span>.roster[<span class="dv">0</span>] <span class="op">=</span> new_athlete</span>
+<span id="cb28-29"><a href="#cb28-29" aria-hidden="true"></a><span class="dv">29</span>          <span class="cf">return</span> new_athlete</span>
+<span id="cb28-30"><a href="#cb28-30" aria-hidden="true"></a><span class="dv">30</span></span>
+<span id="cb28-31"><a href="#cb28-31" aria-hidden="true"></a><span class="dv">31</span></span>
+<span id="cb28-32"><a href="#cb28-32" aria-hidden="true"></a><span class="dv">32</span>  unc: Team <span class="op">=</span> Team(name<span class="op">=</span><span class="st">&quot;UNC Women&#39;s BB&quot;</span>)</span>
+<span id="cb28-33"><a href="#cb28-33" aria-hidden="true"></a><span class="dv">33</span>  kate <span class="op">=</span> unc.add(<span class="st">&quot;Kate&quot;</span>, <span class="dv">15</span>)</span>
+<span id="cb28-34"><a href="#cb28-34" aria-hidden="true"></a><span class="dv">24</span>  <span class="bu">print</span>(kate)</span></code></pre></div></li>
+</ol>
 </div>
 
        
